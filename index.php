@@ -32,7 +32,7 @@
     <meta property="og:title" content="WebSlides — Making HTML Presentations Easy"> <!-- EDIT -->
     <meta property="og:description" content="WebSlides is about telling stories beautifully. Just the essential features. Good karma."> <!-- EDIT -->
     <meta property="og:updated_time" content="2017-01-04T17:20:50"> <!-- EDIT -->
-    <meta property="og:image" content="static/images/share-webslides.jpg"> <!-- EDIT -->
+    <meta property="og:image" content="img/share-webslides.jpg"> <!-- EDIT -->
 
     <!-- TWITTER -->
     <meta name="twitter:card" content="summary_large_image">
@@ -40,12 +40,12 @@
     <meta name="twitter:creator" content="@jlantunez"> <!-- EDIT -->
     <meta name="twitter:title" content="WebSlides — Making HTML Presentations Easy"> <!-- EDIT -->
     <meta name="twitter:description" content="WebSlides is about good karma. Just essential features. 120+ free slides ready to use."> <!-- EDIT -->
-    <meta name="twitter:image" content="static/images/share-webslides.jpg"> <!-- EDIT -->
-
+    <meta name="twitter:image" content="img/share-webslides.jpg"> <!-- EDIT -->
 
     <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700,900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
     <link rel="stylesheet" href="css/main.css?<?=time()?>">
+
 </head>
 
 <body>
@@ -84,7 +84,7 @@
         -->
 
         <section>
-         <span class="background" style="background-image:url('https://webslides.tv/static/images/nature.jpg')"></span>
+         <span class="background" style="background-image:url('https://webslides.tv/img/nature.jpg')"></span>
           <!--.wrap = container (width: 90%) -->
           <div class="wrap aligncenter">
             <h1><strong>Create beautiful stories</strong></h1>
@@ -229,7 +229,7 @@
               <li>
                 <a href="demos/why-webslides.html" title="Why WebSlides?">
                   <figure>
-                    <img alt="Thumbnail Why WebSlides?" src="https://webslides.tv/static/images/demos-why.png">
+                    <img alt="Thumbnail Why WebSlides?" src="https://webslides.tv/img/demos-why.png">
                     <figcaption>
                       <h2>Why WebSlides?</h2>
                     </figcaption>
@@ -239,7 +239,7 @@
               <li>
                 <a href="demos/landings.html" title="Landings">
                   <figure>
-                    <img alt="Thumbnail Landings" src="https://webslides.tv/static/images/demos-landings.png">
+                    <img alt="Thumbnail Landings" src="https://webslides.tv/img/demos-landings.png">
                     <figcaption>
                       <h2>Landings</h2>
                     </figcaption>
@@ -249,7 +249,7 @@
               <li>
                 <a href="demos/portfolios.html" title="Portfolios">
                   <figure>
-                    <img alt="Thumbnail Portfolios" src="https://webslides.tv/static/images/demos-portfolios.png">
+                    <img alt="Thumbnail Portfolios" src="https://webslides.tv/img/demos-portfolios.png">
                     <figcaption>
                       <h2>Portfolios</h2>
                     </figcaption>
@@ -259,7 +259,7 @@
               <li>
                 <a href="demos/keynote.html" title="Apple Keynote">
                   <figure>
-                    <img alt="Thumbnail Apple Keynote" src="https://webslides.tv/static/images/demos-apple.png">
+                    <img alt="Thumbnail Apple Keynote" src="https://webslides.tv/img/demos-apple.png">
                     <figcaption>
                       <h2>Apple Keynote</h2>
                     </figcaption>
@@ -288,7 +288,7 @@
                 </ul>
               </div>
               <div class="column">
-                <figure><img class="aligncenter" src="static/images/setup.png" alt="WebSlides Files"></figure>
+                <figure><img class="aligncenter" src="img/setup.png" alt="WebSlides Files"></figure>
               </div>
               <div class="column">
                 <h4>
