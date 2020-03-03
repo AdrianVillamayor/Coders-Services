@@ -1,0 +1,23 @@
+# Mini tutorial to install SASS in MAC
+
+# 1
+    $ brew install ruby
+
+# 2
+    $ brew install sass/sass/sass
+
+# 3
+    $ sudo gem install sass-globbing
+
+
+# EXECUTE THIS COMMAND 
+
+sass --watch scss:css --style compressed
+
+# Mini tutorial to install SASS in WINDOWS
+
+Application => Koala , LiveReload
+
+Command Line => Chocolatey
+
+# choco install sass

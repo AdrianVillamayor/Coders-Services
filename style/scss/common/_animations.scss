@@ -1,0 +1,49 @@
+@-webkit-keyframes ripple-effect {
+    0% {
+        @include transform(scale(0));
+    }
+
+    100% {
+        @include transform(scale(2.5));
+    }
+}
+
+@keyframes ripple-effect {
+    0% {
+        @include transform(scale(0));
+    }
+
+    100% {
+        @include transform(scale(2.5));
+    }
+}
+
+@-webkit-keyframes ripple-effect-reverse {
+    0% {
+        @include transform(scale(2.5));
+    }
+
+    100% {
+        @include transform(scale(0));
+    }
+}
+
+@keyframes ripple-effect-reverse {
+    0% {
+        @include transform(scale(2.5));
+    }
+
+    100% {
+        @include transform(scale(0));
+    }
+}
+
+@keyframes fade {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+}

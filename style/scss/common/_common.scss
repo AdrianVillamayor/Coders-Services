@@ -1,0 +1,157 @@
+@import "vars";
+@import "mixin";
+@import "animations";
+@import "icons";
+
+
+.phone-hidden {
+    @include transition(all .3s linear);
+
+    @media screen and (max-width: $small) {
+
+        display: none;
+    }
+
+    @media screen and (min-width: $small + 1) {
+
+        display: block;
+
+        &.flex {
+            display: flex;
+        }
+    }
+}
+
+.phone-show {
+    @include transition(all .3s linear);
+
+    @media screen and (max-width: $small) {
+        display: flex;
+    }
+
+    @media screen and (min-width: $small + 1) {
+
+        display: none;
+    }
+}
+
+.tablet-show {
+    @include transition(all .3s linear);
+
+    @media screen and (max-width: $large - 1px) {
+
+        display: block;
+
+        &.flex {
+            display: flex;
+        }
+    }
+
+    &.flex-direction-swap {
+        flex-direction: column-reverse;
+
+        @media screen and (max-width: $extra_small) {
+            & .extra-top {
+                margin-top: 5rem !important;
+            }
+        }
+    }
+
+    @media screen and (min-width: $large) {
+        display: none;
+    }
+
+}
+
+.tablet-hidden {
+    @include transition(all .3s linear);
+
+    @media screen and (max-width: $large - 1px) {
+
+        display: none;
+    }
+
+    @media screen and (min-width: $large) {
+
+        display: block;
+
+        &.flex {
+            display: flex;
+        }
+    }
+}
+
+html {
+    overflow-x: hidden;
+    padding: 0px !important;
+    height: 100%;
+}
+
+body {
+    @include font($font-Roboto, 16px, 400, 1.5, $spacing);
+    padding: 0px !important;
+    
+    position: relative;
+    margin: 0;
+    min-height: 100%;
+}
+
+header,
+footer,
+nav {
+    padding: 0px !important;
+}
+
+
+button {
+    outline: none !important;
+}
+
+
+.front-element {
+    z-index: 1041;
+}
+
+[data-entrance] {
+    visibility: hidden;
+}
+
+.hidden {
+    display: none;
+}
+
+.pointer {
+    cursor: pointer;
+}
+
+.required {
+    color: $red;
+}
+
+.modal {
+    overflow: scroll;
+}
+
+.hidden {
+    visibility: hidden;
+    position: absolute;
+
+    @include transition("visibility .3s ease-in-out");
+}
+
+.none {
+    display: none;
+}
+
+.img-fade {
+    @include animation(fade 2s);
+}
+
+footer {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    padding: 1rem;
+    width: 100%;
+}
