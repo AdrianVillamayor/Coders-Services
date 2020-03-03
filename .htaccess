@@ -1,6 +1,4 @@
 # Start to Rewrite
-Order Allow,Deny
-Allow from all
 
 RewriteEngine On
 
