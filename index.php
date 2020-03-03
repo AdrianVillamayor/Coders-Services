@@ -46,7 +46,7 @@
 
   <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700,900&display=swap" rel="stylesheet">
 
-  <link rel="stylesheet" href="style/css/main.css?<?=time()?>">
+  <link rel="stylesheet" href="css/main.css?<?=time()?>">
 
 </head>
 
@@ -80,132 +80,7 @@
         </div>
         <!-- .end .wrap -->
       </section>
-      <section>
-        <!--.wrap = container (width: 90%) -->
-        <div class="wrap size-50 aligncenter">
-          <h2><strong>Why WebSlides?</strong></h2>
-          <p class="text-intro"><a href="demos/why-webslides.html" title="Why WebSlides?">Presentations</a>, <a
-              href="demos/landings.html" title="Landings">landings</a>, <a href="demos/portfolios.html"
-              title="Portfolios">portfolios</a>, and <a href="demos/longforms.html" title="Longforms">longforms</a>.</p>
-          <div class="bg-white shadow">
-            <ul class="flexblock reasons">
-              <li>
-                <h2>An opportunity to engage.</h2>
-                <p>WebSlides is about good karma. This is about telling the story, and sharing it in a beautiful way.
-                  HTML and CSS as narrative elements.</p>
-              </li>
-              <li>
-                <h2>Work better, faster.</h2>
-                <p>Designers, marketers, and journalists can now focus on the content. Simply <a href="demos/index.html"
-                    title="WebSlides Demos">choose a demo</a> and customize it in minutes.</p>
-              </li>
-            </ul>
-          </div>
-          <!-- .end .bg-white shadow -->
-        </div>
-        <!-- .end .wrap -->
-      </section>
-      <section>
-        <!--.wrap = container (width: 90%) -->
-        <div class="wrap">
-          <div class="grid vertical-align">
-            <div class="column">
-              <h3><strong>WebSlides is really easy</strong></h3>
-              <p class="text-intro">Each parent <code>&lt;section&gt;</code> in the #webslides element is an individual
-                slide. </p>
-              <p>Code is clean and scalable. It uses <strong>intuitive markup</strong> with popular naming conventions.
-                There's no need to overuse classes or nesting. <strong>Making an HTML presentation has never been so
-                  fast</strong>.</p>
-            </div>
-            <!-- .end .column -->
-            <div class="column">
-              <pre>&lt;article id="webslides"&gt;
-  <span class="code-comment">&lt;!-- Slide 1 --&gt;</span>
-  &lt;section&gt;
-    &lt;h1&gt;Design for trust&lt;/h1&gt;
-  &lt;/section&gt;
-  <span class="code-comment">&lt;!-- Slide 2 --&gt;</span>
-  &lt;section class="bg-primary"&gt;
-    &lt;div class="wrap"&gt;
-      &lt;h2&gt;.wrap = container (width: 90%)&lt;/h2&gt;
-    &lt;/div&gt;
-  &lt;/section&gt;
-&lt;/article&gt;
-</pre>
-            </div>
-            <!-- .end .column -->
-          </div>
-          <!-- .end .grid -->
-        </div>
-        <!-- .end .wrap -->
-      </section>
-      <section>
-        <div class="wrap">
-          <h2>Features</h2>
-          <ul class="flexblock features">
-            <li>
-              <div>
-                <h2>
-                  <span>&rarr;</span>
-                  Simple Navigation
-                </h2>
-                with arrow keys, presenter...
-              </div>
-            </li>
-            <li>
-              <div>
-                <h2>
-                  <svg class="fa-link">
-                    <use xlink:href="#fa-link"></use>
-                  </svg>
-                  Permalinks
-                </h2>
-                Go to a specific slide.
-              </div>
-            </li>
-            <li>
-              <div>
-                <h2>
-                  <svg class="fa-clock-o">
-                    <use xlink:href="#fa-clock-o"></use>
-                  </svg>
-                  Slide Counter
-                </h2>
-                Current/Total number.
-              </div>
-            </li>
-            <li>
-              <div>
-                <h2>
-                  <span>40<sup>+</sup></span>
-                  Beautiful Components
-                </h2>
-                Covers, cards, quotes...
-              </div>
-            </li>
-            <li>
-              <div>
-                <h2>
-                  <svg class="fa-text-height">
-                    <use xlink:href="#fa-text-height"></use>
-                  </svg>
-                  Vertical Rhythm
-                </h2>
-                Use multiples of 8.
-              </div>
-            </li>
-            <li>
-              <div>
-                <h2>
-                  <span>500<sup>+</sup></span>
-                  SVG Icons
-                </h2>
-                Font Awesome Kit.
-              </div>
-            </li>
-          </ul>
-        </div>
-      </section>
+     
       <section>
         <div class="wrap">
           <h2><strong>WebSlides Demos</strong></h2>
