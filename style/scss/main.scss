@@ -3975,7 +3975,7 @@
  webslides.js will add .ws-ready automatically. Don't worry :) -- */
  
  body {
-   background-color: $pink;
+   background-color: rgba($pink, .8);
    color: $white;
  }
  
