@@ -1364,7 +1364,10 @@
  /*=========================================
  3. Header & Footer
  =========================================== */
- 
+ #navigation{
+   display: none !important;
+ }
+
  header, footer, #navigation {
    padding: 2.4rem;
    -webkit-transition: all .4s ease-in-out;

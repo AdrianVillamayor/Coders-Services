@@ -53,16 +53,10 @@
 <body>
 
   <main role="main">
-    <article id="webslides" class="vertical">
-      <!-- Quick Guide
-          - Each parent <section> in the <article id="webslides"> element is an individual slide.
-          - Vertical sliding = <article id="webslides" class="vertical">
-          - <div class="wrap"> = container 90% / <div class="wrap size-50"> = 45%;
-        -->
 
+    <article id="webslides" class="vertical">
+      
       <section>
-        <span class="background" style="background-image:url('https://webslides.tv/img/nature.jpg')"></span>
-        <!--.wrap = container (width: 90%) -->
         <div class="wrap aligncenter">
           <h1><strong>Create beautiful stories</strong></h1>
           <p class="text-intro">WebSlides makes HTML presentations easy.<br>
@@ -78,7 +72,6 @@
             </a>
           </p>
         </div>
-        <!-- .end .wrap -->
       </section>
      
       <section>
@@ -169,8 +162,8 @@
           <!--end .grid -->
         </div>
       </section>
+      
       <section class="aligncenter">
-        <!-- .wrap = container (width: 90%) -->
         <div class="wrap">
           <h2><strong>Ready to Start?</strong> </h2>
           <p class="text-intro">Create your own presentation instantly. <br>120+ premium slides ready to use.</p>
@@ -191,8 +184,8 @@
             </span>
           </p>
         </div>
-        <!-- .end .wrap -->
       </section>
+
       <section class="slide-bottom">
         <div class="wrap">
           <div class="content-right text-serif">
@@ -211,13 +204,12 @@
                 href="https://twitter.com/belelros">@belelros</a>, and <a
                 href="https://twitter.com/luissacristan">@luissacristan</a>.</p>
           </div>
-          <!-- .end .content-right -->
         </div>
-        <!-- .end .wrap -->
+
       </section>
 
     </article>
-    <!-- end article -->
+
   </main>
 
 </body>
