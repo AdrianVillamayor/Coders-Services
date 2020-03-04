@@ -76,26 +76,15 @@
      
       <section>
         <div class="wrap">
-          <h2><strong>Why Coders</strong></h2>
-          <p>Contribute on <a href="https://github.com/webslides/webslides" title="Contribute on Github">Github</a>.
-            <span class="alignright"><a href="demos/index.html" title="WebSlides Demos">View all &rsaquo;</a></span></p>
-          <ul class="flexblock gallery">
-            <li>
-              <a href="demos/why-webslides.html" title="Why WebSlides?">
-                <figure>
-                  <img alt="Thumbnail Why WebSlides?" src="https://webslides.tv/img/demos-why.png">
-                  <figcaption>
-                    <h2>Why WebSlides?</h2>
-                  </figcaption>
-                </figure>
-              </a>
-            </li>
+          <h2><strong > Why Coders Services ? </strong></h2>
+         
+          <ul class="flexblock gallery m">
             <li>
               <a href="demos/landings.html" title="Landings">
                 <figure>
                   <img alt="Thumbnail Landings" src="https://webslides.tv/img/demos-landings.png">
                   <figcaption>
-                    <h2>Landings</h2>
+                    <h2>Multi-platform application development </h2>
                   </figcaption>
                 </figure>
               </a>
@@ -105,7 +94,7 @@
                 <figure>
                   <img alt="Thumbnail Portfolios" src="https://webslides.tv/img/demos-portfolios.png">
                   <figcaption>
-                    <h2>Portfolios</h2>
+                    <h2> Responsive Design to work on all devices and operating systems </h2>
                   </figcaption>
                 </figure>
               </a>
@@ -115,15 +104,15 @@
                 <figure>
                   <img alt="Thumbnail Apple Keynote" src="https://webslides.tv/img/demos-apple.png">
                   <figcaption>
-                    <h2>Apple Keynote</h2>
+                    <h2>Native & Hybrid ANDROID & iOS apps </h2>
                   </figcaption>
                 </figure>
               </a>
             </li>
           </ul>
         </div>
-        <!-- .end .wrap -->
       </section>
+      
       <section>
         <div class="wrap">
           <div class="grid vertical-align">
