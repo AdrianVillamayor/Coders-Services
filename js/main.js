@@ -41,8 +41,8 @@ mc.get('pan').set({ direction: Hammer.DIRECTION_ALL });
 
 mc.on("panup pandown", function(ev) {
     console.log(ev.type);
-
     if (getScrollTop()) {
+        alert("next");
         window.ws.goNext();
     }
 });
