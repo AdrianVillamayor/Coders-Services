@@ -32,7 +32,7 @@ mc.on("panup pandown", function(ev) {
     let offset    = slide[0].offsetHeight;
     let position  = slide.scrollTop();
 
-    if(max - offset == position){
+    if((max - offset == position)){
         alert("next");
         window.ws.goNext();
     }
@@ -44,6 +44,6 @@ mc.on("pandown ", function(ev) {
 
     if(position == 0){
         alert("back");
-        window.ws.goNext();
+        window.ws.goPrev();
     }
 });
