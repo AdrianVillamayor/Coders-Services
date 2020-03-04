@@ -124,21 +124,25 @@
           <h2>WEB TECHNOLOGY</h2>
 
           <ul class="flexblock features">
-            
+
             <li>
               <div>
                 <h2>
-                  <span>→</span>
+                  <span class="img-logo">
+                    <img alt="PHP" class="img-fluid" src="img/php_logo.svg">
+                  </span>
                   PHP
                 </h2>
-                API rest - Laravel 
+                API rest - Laravel
               </div>
             </li>
 
             <li>
               <div>
                 <h2>
-                  <span>→</span>
+                  <span class="img-logo">
+                    <img alt="golang" class="img-fluid" src="img/go_logo.svg">
+                  </span>
                   GO
                 </h2>
               </div>
@@ -147,7 +151,9 @@
             <li>
               <div>
                 <h2>
-                  <span>→</span>
+                  <span class="img-logo">
+                    <img alt="PYTHON" class="img-fluid" src="img/gpy_logo.svg">
+                  </span>
                   PYTHON
                 </h2>
               </div>
@@ -164,11 +170,11 @@
                 Pug
               </div>
             </li>
-           
+
             <li>
               <div>
                 <h2>
-                <span class="img-logo">
+                  <span class="img-logo">
                     <img alt="css" class="img-fluid" src="img/css_logo.png">
                   </span>
                   CSS
@@ -176,16 +182,16 @@
                 LESS - SCSS
               </div>
             </li>
-            
+
             <li>
               <div>
                 <h2>
-                <span class="img-logo">
+                  <span class="img-logo">
                     <img alt="javascript" class="img-fluid" src="img/js_logo.png">
                   </span>
                   JAVASCRIPT
                 </h2>
-                NodeJs -  Ajax - Electron - Vue - React
+                NodeJs - Ajax - Electron - Vue - React
               </div>
             </li>
 
@@ -214,7 +220,7 @@
                 </h2>
               </div>
             </li>
-            
+
           </ul>
         </div>
       </section>
