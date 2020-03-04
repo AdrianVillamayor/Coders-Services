@@ -103,7 +103,7 @@
             <li>
               <a href="demos/keynote.html" title="Apple Keynote">
                 <figure>
-                  <img alt="Native & Hybrid ANDROID & iOS apps" class="img-fluid" src="img/app.svg">
+                  <img alt="Native & Hybrid ANDROID & iOS apps" style="padding: 65px;" class="img-fluid" src="img/app.svg">
                   <figcaption>
                     <h2>Native & Hybrid ANDROID & iOS apps </h2>
                   </figcaption>
