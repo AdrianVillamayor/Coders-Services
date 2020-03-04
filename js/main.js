@@ -44,6 +44,6 @@ mc.get('pan').set({ direction: Hammer.DIRECTION_ALL });
 mc.on("panup pandown", function(ev) {
 
     if (getScrollTop() == getDocumentHeight() - window.innerHeight) {
-        alert(ev.type);a
+        alert(ev.type);
     }
 });
