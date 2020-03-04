@@ -129,7 +129,7 @@
               <div>
                 <h2>
                   <span class="img-logo">
-                    <img alt="PHP" class="img-fluid" src="img/php_logo.svg">
+                    <img alt="PHP" class="img-fluid" src="img/php_logo.png">
                   </span>
                   PHP
                 </h2>
@@ -141,7 +141,7 @@
               <div>
                 <h2>
                   <span class="img-logo">
-                    <img alt="golang" class="img-fluid" src="img/go_logo.svg">
+                    <img alt="golang" class="img-fluid" src="img/go_logo.png">
                   </span>
                   GO
                 </h2>
@@ -152,7 +152,7 @@
               <div>
                 <h2>
                   <span class="img-logo">
-                    <img alt="PYTHON" class="img-fluid" src="img/py_logo.svg">
+                    <img alt="PYTHON" class="img-fluid" src="img/py_logo.png">
                   </span>
                   PYTHON
                 </h2>
