@@ -43,7 +43,7 @@ mc.on("pandown ", function(ev) {
     let position  = slide.scrollTop();
 
     if(position == 0){
-        alert("next");
+        alert("back");
         window.ws.goNext();
     }
 });
