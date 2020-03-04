@@ -152,7 +152,7 @@
               <div>
                 <h2>
                   <span class="img-logo">
-                    <img alt="PYTHON" class="img-fluid" src="img/gpy_logo.svg">
+                    <img alt="PYTHON" class="img-fluid" src="img/py_logo.svg">
                   </span>
                   PYTHON
                 </h2>
