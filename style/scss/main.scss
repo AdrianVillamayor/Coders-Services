@@ -3980,7 +3980,9 @@
 
    &::after{
      content: "";
-     background-color: rgba(0, 20, 80, 0.1);
+      // background-color: rgba(0, 20, 80, 0.1);
+      position: absolute;
+      top: 0;
    }
  }
  
