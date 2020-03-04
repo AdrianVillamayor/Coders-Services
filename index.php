@@ -54,7 +54,8 @@
 <body>
 
   <main role="main">
-  <div class="fixed-top"> <img class="img-fluid" src="img/logo.png" ></div>
+
+  <div class="fixed-top p-4"> <img class="img-fluid w-5" src="img/logo.png" ></div>
 
     <article id="webslides" class="vertical">
       
