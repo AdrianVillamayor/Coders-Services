@@ -58,10 +58,10 @@
       
       <section>
         <div class="wrap aligncenter">
-          <h1><strong>Create beautiful stories</strong></h1>
-          <p class="text-intro">WebSlides makes HTML presentations easy.<br>
-            Just the essentials and using lovely CSS.
-          </p>
+          <h1><strong>Multi-platform application development </strong></h1>
+
+          <p class="text-intro">We use the latest technologies to make this happen as by magic. </p>
+          
           <p>
             <a href="https://webslides.tv/webslides-latest.zip" class="button zoomIn"
               title="Download WebSlides for free">
