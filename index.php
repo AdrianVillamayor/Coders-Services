@@ -61,7 +61,7 @@
     <article id="webslides" class="vertical">
 
       <section>
-        <div class="wrap aligncenter fadeInUp">
+        <div class="wrap aligncenter">
           <h1><strong>Multi-platform application development </strong></h1>
 
           <p class="text-intro">We use the latest technologies to make this happen as by magic. </p>
@@ -80,11 +80,11 @@
 
       <section>
 
-        <div class="wrap fadeInUp">
+        <div class="wrap">
           <h2><strong> Why Coders Services ? </strong></h2>
 
-          <ul class="flexblock gallery">
-            <li class="fadeInUp">
+          <ul class="flexblock gallery m">
+            <li>
               <a href="demos/landings.html" title="Landings">
                 <figure>
                   <img alt="Responsive Design" class="img-fluid" src="img/multi-platf.svg">
@@ -94,7 +94,7 @@
                 </figure>
               </a>
             </li>
-            <li class="fadeInUp">
+            <li>
               <a href="demos/portfolios.html" title="Portfolios">
                 <figure>
                   <img alt="Responsive Design" class="img-fluid" src="img/responsive-design.svg">
@@ -104,7 +104,7 @@
                 </figure>
               </a>
             </li>
-            <li class="fadeInUp">
+            <li>
               <a href="demos/keynote.html" title="Apple Keynote">
                 <figure>
                   <img alt="Native & Hybrid ANDROID & iOS apps" style="padding: 65px;" class="img-fluid"
@@ -119,90 +119,23 @@
         </div>
       </section>
 
-      <section id="section-4" class="slide current fadeInUp">
-        <div class="wrap">
-          <h2>WEB TECHNOLOGY</h2>
-
-          <ul class="flexblock features">
-
-            <li class="fadeInUp">
-              <div>
-                <h2>
-                  <span>→</span>
-                  PHP
-                </h2>
-                API rest - Laravel
-              </div>
-            </li>
-
-            <li class="fadeInUp">
-              <div>
-                <h2>
-                  <span>→</span>
-                  GO
-                </h2>
-              </div>
-            </li>
-
-            <li class="fadeInUp">
-              <div>
-                <h2>
-                  <span>→</span>
-                  PYTHON
-                </h2>
-              </div>
-            </li>
-
-            <li class="fadeInUp">
-              <div>
-                <h2>
-                  <span>→</span>
-                  JAVASCRIPT
-                </h2>
-                NodeJs - Ajax - Electron - Vue - React
-              </div>
-            </li>
-
-            <li class="fadeInUp">
-              <div>
-                <h2>
-                  <span>→</span>
-                  JAVA
-                </h2>
-              </div>
-            </li>
-
-            <li class="fadeInUp">
-              <div>
-                <h2>
-                  <span>→</span>
-                  BBDD
-                </h2>
-                MySQL - Mongo DB
-              </div>
-            </li>
-
-          </ul>
-        </div>
-      </section>
-      
       <section id="section-4" class="slide current" style="">
         <div class="wrap">
           <h2>WEB TECHNOLOGY</h2>
 
           <ul class="flexblock features">
-
-            <li class="fadeInUp">
+            
+            <li>
               <div>
                 <h2>
                   <span>→</span>
                   PHP
                 </h2>
-                API rest - Laravel
+                API rest - Laravel 
               </div>
             </li>
 
-            <li class="fadeInUp">
+            <li>
               <div>
                 <h2>
                   <span>→</span>
@@ -211,7 +144,7 @@
               </div>
             </li>
 
-            <li class="fadeInUp">
+            <li>
               <div>
                 <h2>
                   <span>→</span>
@@ -220,35 +153,62 @@
               </div>
             </li>
 
-            <li class="fadeInUp">
+            <li>
+              <div>
+                <h2>
+                  <span>→</span>
+                  HTML
+                </h2>
+                Pug
+              </div>
+            </li>
+           
+            <li>
+              <div>
+                <h2>
+                  <span>→</span>
+                  CSS
+                </h2>
+                LESS - SCSS
+              </div>
+            </li>
+            
+            <li>
               <div>
                 <h2>
                   <span>→</span>
                   JAVASCRIPT
                 </h2>
-                NodeJs - Ajax - Electron - Vue - React
+                NodeJs -  Ajax - Electron - Vue - React
               </div>
             </li>
 
-            <li class="fadeInUp">
+            <li>
               <div>
                 <h2>
-                  <span>→</span>
+
                   JAVA
                 </h2>
               </div>
             </li>
 
-            <li class="fadeInUp">
+            <li>
               <div>
                 <h2>
                   <span>→</span>
-                  BBDD
+                  MySQL
                 </h2>
-                MySQL - Mongo DB
               </div>
             </li>
-
+            <li>
+              <div>
+                <h2>
+                  <span>→</span>
+                  Mongo DB
+                </h2>
+              </div>
+            </li>
+            
           </ul>
         </div>
       </section>
