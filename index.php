@@ -83,7 +83,7 @@
             <li>
               <a href="demos/landings.html" title="Landings">
                 <figure>
-                  <img alt="Thumbnail Landings" src="https://webslides.tv/img/demos-landings.png">
+                  <img alt="Responsive Design" class="img-fluid" src="img/multi-platf.svg">
                   <figcaption>
                     <h2>Multi-platform application development </h2>
                   </figcaption>
@@ -93,7 +93,7 @@
             <li>
               <a href="demos/portfolios.html" title="Portfolios">
                 <figure>
-                  <img alt="Thumbnail Portfolios" class="img-fluid" src="img/responsive-design.svg">
+                  <img alt="Responsive Design" class="img-fluid" src="img/responsive-design.svg">
                   <figcaption>
                     <h2> Responsive Design to work on all systems </h2>
                   </figcaption>
@@ -103,7 +103,7 @@
             <li>
               <a href="demos/keynote.html" title="Apple Keynote">
                 <figure>
-                  <img alt="Thumbnail Apple Keynote" src="https://webslides.tv/img/demos-apple.png">
+                  <img alt="Native & Hybrid ANDROID & iOS apps" class="img-fluid" src="img/app.svg">
                   <figcaption>
                     <h2>Native & Hybrid ANDROID & iOS apps </h2>
                   </figcaption>
