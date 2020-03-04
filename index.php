@@ -157,7 +157,7 @@
               <div>
                 <h2>
                   <span>
-                    <img alt="Responsive Design" class="img-fluid" src="img/html_logo.png">
+                    <img alt="html" class="img-fluid" src="img/html_logo.png">
                   </span>
                   HTML
                 </h2>
@@ -169,7 +169,7 @@
               <div>
                 <h2>
                 <span>
-                    <img alt="Responsive Design" class="img-fluid" src="img/css_logo.png">
+                    <img alt="css" class="img-fluid" src="img/css_logo.png">
                   </span>
                   CSS
                 </h2>
@@ -181,7 +181,7 @@
               <div>
                 <h2>
                 <span>
-                    <img alt="Responsive Design" class="img-fluid" src="img/js_logo.png">
+                    <img alt="javascript" class="img-fluid" src="img/js_logo.png">
                   </span>
                   JAVASCRIPT
                 </h2>

@@ -25,3 +25,10 @@ a{
     color: rgba($blue, .8);
   }
 }
+
+span{
+  img{
+    display: flex;
+    justify-content: flex-end;
+  }
+}
