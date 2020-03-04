@@ -156,7 +156,7 @@
                   <span class="img-logo">
                     <img alt="PYTHON" class="img-fluid" src="img/py_logo.png">
                   </span>
-                  PYTHON
+                  Python
                 </h2>
               </div>
             </li>
@@ -191,7 +191,7 @@
                   <span class="img-logo">
                     <img alt="javascript" class="img-fluid" src="img/js_logo.png">
                   </span>
-                  JAVASCRIPT
+                  JavaScript
                 </h2>
                 NodeJs - Ajax - Electron - Vue - React
               </div>
@@ -203,7 +203,7 @@
                   <span class="img-logo">
                     <img alt="java" class="img-fluid" src="img/java_logo.png">
                   </span>
-                  JAVA
+                  Java
                 </h2>
               </div>
             </li>
@@ -225,6 +225,62 @@
                     <img alt="java" class="img-fluid" src="img/mongodb_logo.png">
                   </span>
                   Mongo DB
+                </h2>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </section>
+
+      <section id="section-4" class="slide current" style="">
+        <div class="wrap">
+          <h2>MOBILE TECHNOLOGY</h2>
+
+          <ul class="flexblock features">
+
+            <li>
+              <div>
+                <h2>
+                  <span class="img-logo">
+                    <img alt="PHP" class="img-fluid" src="img/android_logo.png">
+                  </span>
+                  Java
+                </h2>
+                Kotlin
+              </div>
+            </li>
+
+            <li>
+              <div>
+                <h2>
+                  <span class="img-logo">
+                    <div class="text-right">
+                      <img alt="golang" class="img-fluid w-40" src="img/swift_logo.png">
+                    </div>
+                  </span>
+                  Swift
+                </h2>
+              </div>
+            </li>
+
+            <li>
+              <div>
+                <h2>
+                  <span class="img-logo">
+                    <img alt="PYTHON" class="img-fluid" src="img/flutter_logo.png">
+                  </span>
+                  Flutter
+                </h2>
+              </div>
+            </li>
+
+            <li>
+              <div>
+                <h2>
+                  <span class="img-logo">
+                    <img alt="html" class="img-fluid" src="img/ionic_logo.png">
+                  </span>
+                  Ionic
                 </h2>
               </div>
             </li>
