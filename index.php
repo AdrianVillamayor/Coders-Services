@@ -131,8 +131,10 @@
                   <span>→</span>
                   PHP
                 </h2>
+                API rest - Laravel 
               </div>
             </li>
+
             <li>
               <div>
                 <h2>
@@ -141,6 +143,7 @@
                 </h2>
               </div>
             </li>
+
             <li>
               <div>
                 <h2>
@@ -156,6 +159,7 @@
                   <span>→</span>
                   JAVASCRIPT
                 </h2>
+                NodeJs -  Ajax - Electron - Vue - React
               </div>
             </li>
 
@@ -172,28 +176,11 @@
               <div>
                 <h2>
                   <span>→</span>
-                  API REST
+                  BBDD
                 </h2>
+                MySQL - Mongo DB
               </div>
             </li>
-            
-            <li>
-              <div>
-                <h2>
-                  <span>→</span>
-                  MySQL
-                </h2>
-              </div>
-            </li>
-            <li>
-              <div>
-                <h2>
-                  <span>→</span>
-                   Mongo DB
-                </h2>
-              </div>
-            </li>
-
             
           </ul>
         </div>
