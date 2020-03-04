@@ -124,18 +124,18 @@
           <h2>WEB TECHNOLOGY</h2>
 
           <ul class="flexblock features">
-            
-            <li>
+
+            <li class="fadeInUp">
               <div>
                 <h2>
                   <span>→</span>
                   PHP
                 </h2>
-                API rest - Laravel 
+                API rest - Laravel
               </div>
             </li>
 
-            <li>
+            <li class="fadeInUp">
               <div>
                 <h2>
                   <span>→</span>
@@ -144,7 +144,7 @@
               </div>
             </li>
 
-            <li>
+            <li class="fadeInUp">
               <div>
                 <h2>
                   <span>→</span>
@@ -152,18 +152,18 @@
                 </h2>
               </div>
             </li>
-            
-            <li>
+
+            <li class="fadeInUp">
               <div>
                 <h2>
                   <span>→</span>
                   JAVASCRIPT
                 </h2>
-                NodeJs -  Ajax - Electron - Vue - React
+                NodeJs - Ajax - Electron - Vue - React
               </div>
             </li>
 
-            <li>
+            <li class="fadeInUp">
               <div>
                 <h2>
                   <span>→</span>
@@ -172,7 +172,7 @@
               </div>
             </li>
 
-            <li>
+            <li class="fadeInUp">
               <div>
                 <h2>
                   <span>→</span>
@@ -181,10 +181,76 @@
                 MySQL - Mongo DB
               </div>
             </li>
-            
+
           </ul>
         </div>
       </section>
+      
+      <section id="section-4" class="slide current" style="">
+        <div class="wrap">
+          <h2>WEB TECHNOLOGY</h2>
+
+          <ul class="flexblock features">
+
+            <li class="fadeInUp">
+              <div>
+                <h2>
+                  <span>→</span>
+                  PHP
+                </h2>
+                API rest - Laravel
+              </div>
+            </li>
+
+            <li class="fadeInUp">
+              <div>
+                <h2>
+                  <span>→</span>
+                  GO
+                </h2>
+              </div>
+            </li>
+
+            <li class="fadeInUp">
+              <div>
+                <h2>
+                  <span>→</span>
+                  PYTHON
+                </h2>
+              </div>
+            </li>
+
+            <li class="fadeInUp">
+              <div>
+                <h2>
+                  <span>→</span>
+                  JAVASCRIPT
+                </h2>
+                NodeJs - Ajax - Electron - Vue - React
+              </div>
+            </li>
+
+            <li class="fadeInUp">
+              <div>
+                <h2>
+                  <span>→</span>
+                  JAVA
+                </h2>
+              </div>
+            </li>
+
+            <li class="fadeInUp">
+              <div>
+                <h2>
+                  <span>→</span>
+                  BBDD
+                </h2>
+                MySQL - Mongo DB
+              </div>
+            </li>
+
+          </ul>
+        </div>
       </section>
 
       <section class="aligncenter">
