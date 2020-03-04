@@ -94,7 +94,7 @@
                 <figure>
                   <img alt="Thumbnail Portfolios" src="https://webslides.tv/img/demos-portfolios.png">
                   <figcaption>
-                    <h2> Responsive Design to work on all devices and operating systems </h2>
+                    <h2> Responsive Design to work on all systems </h2>
                   </figcaption>
                 </figure>
               </a>
