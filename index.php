@@ -45,6 +45,7 @@
   <meta name="twitter:image" content="img/share-webslides.jpg"> <!-- EDIT -->
 
   <link href="https://fonts.googleapis.com/css?family=Oswald:300,400,500,700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
 
   <link rel="stylesheet" href="css/main.css?<?=time()?>">
 
@@ -92,7 +93,7 @@
             <li>
               <a href="demos/portfolios.html" title="Portfolios">
                 <figure>
-                  <img alt="Thumbnail Portfolios" src="https://webslides.tv/img/demos-portfolios.png">
+                  <img alt="Thumbnail Portfolios" class="img-fluid" src="img/responsive-design.svg">
                   <figcaption>
                     <h2> Responsive Design to work on all systems </h2>
                   </figcaption>
