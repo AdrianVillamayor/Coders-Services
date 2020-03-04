@@ -8,6 +8,22 @@ window.ws = new WebSlides({
     showIndex: true
 });
 
+function getDocumentHeight() {
+	const body = $("body")[0];
+	const html = $("html")[0];
+
+	return Math.max(
+		body.scrollHeight, body.offsetHeight,
+		html.clientHeight, html.scrollHeight, html.offsetHeight
+	);
+};
+
+function getScrollTop() {
+	const body = $("body")[0];
+	const html = $("html")[0];
+
+	return (window.pageYOffset !== undefined) ? window.pageYOffset : (html || body.parentNode || body).scrollTop;
+}
 
 const observer = lozad(); // lazy loads elements with default selector as '.lozad'
 observer.observe();
@@ -24,6 +40,10 @@ var mc = new Hammer(body);
 mc.get('pan').set({ direction: Hammer.DIRECTION_ALL });
 
 // listen to events...
-mc.on("panleft panright panup pandown tap press", function(ev) {
-    alert(ev.type)
+
+mc.on("panup pandown", function(ev) {
+
+    if (getScrollTop() == getDocumentHeight() - window.innerHeight) {
+        alert(ev.type);a
+    }
 });
