@@ -141,7 +141,9 @@
               <div>
                 <h2>
                   <span class="img-logo">
-                    <img alt="golang" class="img-fluid" src="img/go_logo.png">
+                    <div class="text-right">
+                      <img alt="golang" class="img-fluid w-40" src="img/go_logo.png">
+                    </div>
                   </span>
                   GO
                 </h2>
@@ -198,7 +200,9 @@
             <li>
               <div>
                 <h2>
-
+                  <span class="img-logo">
+                    <img alt="java" class="img-fluid" src="img/java_logo.png">
+                  </span>
                   JAVA
                 </h2>
               </div>
@@ -207,7 +211,9 @@
             <li>
               <div>
                 <h2>
-                  <span>→</span>
+                  <span class="img-logo">
+                    <img alt="java" class="img-fluid" src="img/mysql_logo.png">
+                  </span>
                   MySQL
                 </h2>
               </div>
@@ -215,7 +221,9 @@
             <li>
               <div>
                 <h2>
-                  <span>→</span>
+                  <span class="img-logo">
+                    <img alt="java" class="img-fluid" src="img/mongodb_logo.png">
+                  </span>
                   Mongo DB
                 </h2>
               </div>
