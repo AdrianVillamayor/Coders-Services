@@ -44,7 +44,7 @@
     content="WebSlides is about good karma. Just essential features. 120+ free slides ready to use."> <!-- EDIT -->
   <meta name="twitter:image" content="img/share-webslides.jpg"> <!-- EDIT -->
 
-  <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700,900&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Oswald:300,400,500,700&display=swap" rel="stylesheet">
 
   <link rel="stylesheet" href="css/main.css?<?=time()?>">
 
@@ -61,7 +61,7 @@
           <h1><strong>Multi-platform application development </strong></h1>
 
           <p class="text-intro">We use the latest technologies to make this happen as by magic. </p>
-          
+
           <p>
             <a href="https://webslides.tv/webslides-latest.zip" class="button zoomIn"
               title="Download WebSlides for free">
@@ -76,7 +76,7 @@
      
       <section>
         <div class="wrap">
-          <h2><strong>WebSlides Demos</strong></h2>
+          <h2><strong>Why Coders</strong></h2>
           <p>Contribute on <a href="https://github.com/webslides/webslides" title="Contribute on Github">Github</a>.
             <span class="alignright"><a href="demos/index.html" title="WebSlides Demos">View all &rsaquo;</a></span></p>
           <ul class="flexblock gallery">
