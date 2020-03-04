@@ -141,8 +141,8 @@
               <div>
                 <h2>
                   <span class="img-logo">
-                    <div class="text-right">
-                      <img alt="golang" class="img-fluid lozad w-40" src="img/go_logo.png">
+                    <div class="text-right flex flex-align-center">
+                      <img alt="golang" class="img-fluid lozad" style="width: 10rem;" src="img/go_logo.png">
                     </div>
                   </span>
                   GO
