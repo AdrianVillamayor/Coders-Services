@@ -9,20 +9,6 @@ window.ws = new WebSlides({
 });
 
 
-function getScrollTop() {
-	const slide     = $("#webslides");
-	const max       = slide[0].scrollHeight;
-    const offset    = slide[0].offsetHeight;
-    const position  = slide.scrollTop();
-
-    if(max - offset == position){
-        return true;
-    }else{
-        return false;
-    }
-	
-}
-
 const observer = lozad(); // lazy loads elements with default selector as '.lozad'
 observer.observe();
 
@@ -40,8 +26,23 @@ mc.get('pan').set({ direction: Hammer.DIRECTION_ALL });
 // listen to events...
 
 mc.on("panup pandown", function(ev) {
-    console.log(ev.type);
-    if (getScrollTop()) {
+
+    let slide     = $("#webslides");
+	let max       = slide[0].scrollHeight;
+    let offset    = slide[0].offsetHeight;
+    let position  = slide.scrollTop();
+
+    if(max - offset == position){
+        alert("next");
+        window.ws.goNext();
+    }
+});
+
+mc.on("pandown ", function(ev) {
+    let slide     = $("#webslides");
+    let position  = slide.scrollTop();
+
+    if(position == 0){
         alert("next");
         window.ws.goNext();
     }
