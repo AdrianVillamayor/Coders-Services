@@ -76,6 +76,8 @@
       </section>
      
       <section>
+      <div class="fixed-top"> <img class="img-fluid" src="img/logo.png" ></div>
+
         <div class="wrap">
           <h2><strong > Why Coders Services ? </strong></h2>
          
