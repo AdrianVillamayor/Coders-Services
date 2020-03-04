@@ -20,24 +20,24 @@ var body = $("body")[0];
 
 // listen to events...
 
-document.addEventListener('swiped-up', function(e) {
+document.addEventListener('swiped-up', function (e) {
 
-    let slide     = $("#webslides");
-	let max       = slide[0].scrollHeight;
-    let offset    = slide[0].offsetHeight;
-    let position  = slide.scrollTop();
+    let slide = $("#webslides");
+    let max = Math.trunc(slide[0].scrollHeight);
+    let offset = Math.trunc(slide[0].offsetHeight);
+    let position = Math.trunc(slide.scrollTop());
 
-    if((max - offset == position)){
+    if ((max - offset == position)) {
         console.warn("next");
         window.ws.goNext();
     }
 });
 
-document.addEventListener('swiped-down', function(e) {
-    let slide     = $("#webslides");
-    let position  = slide.scrollTop();
+document.addEventListener('swiped-down', function (e) {
+    let slide = $("#webslides");
+    let position = Math.trunc(slide.scrollTop());
 
-    if(position == 0){
+    if (position == 0) {
         console.warn("back");
         window.ws.goPrev();
     }
