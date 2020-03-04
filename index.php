@@ -61,7 +61,7 @@
     <article id="webslides" class="vertical">
 
       <section>
-        <div class="wrap aligncenter">
+        <div class="wrap aligncenter fadeInUp">
           <h1><strong>Multi-platform application development </strong></h1>
 
           <p class="text-intro">We use the latest technologies to make this happen as by magic. </p>
@@ -80,11 +80,11 @@
 
       <section>
 
-        <div class="wrap">
+        <div class="wrap fadeInUp">
           <h2><strong> Why Coders Services ? </strong></h2>
 
-          <ul class="flexblock gallery m">
-            <li>
+          <ul class="flexblock gallery">
+            <li class="fadeInUp">
               <a href="demos/landings.html" title="Landings">
                 <figure>
                   <img alt="Responsive Design" class="img-fluid" src="img/multi-platf.svg">
@@ -94,7 +94,7 @@
                 </figure>
               </a>
             </li>
-            <li>
+            <li class="fadeInUp">
               <a href="demos/portfolios.html" title="Portfolios">
                 <figure>
                   <img alt="Responsive Design" class="img-fluid" src="img/responsive-design.svg">
@@ -104,7 +104,7 @@
                 </figure>
               </a>
             </li>
-            <li>
+            <li class="fadeInUp">
               <a href="demos/keynote.html" title="Apple Keynote">
                 <figure>
                   <img alt="Native & Hybrid ANDROID & iOS apps" style="padding: 65px;" class="img-fluid"
@@ -119,7 +119,7 @@
         </div>
       </section>
 
-      <section id="section-4" class="slide current" style="">
+      <section id="section-4" class="slide current fadeInUp">
         <div class="wrap">
           <h2>WEB TECHNOLOGY</h2>
 
