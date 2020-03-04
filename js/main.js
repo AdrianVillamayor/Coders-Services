@@ -42,8 +42,12 @@ mc.get('pan').set({ direction: Hammer.DIRECTION_ALL });
 // listen to events...
 
 mc.on("panup pandown", function(ev) {
+    console.log(ev.type);
 
     if (getScrollTop() == getDocumentHeight() - window.innerHeight) {
-        alert(ev.type);
+
+        console.warn(ev.type);
+
+
     }
 });
