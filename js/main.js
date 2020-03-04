@@ -8,21 +8,19 @@ window.ws = new WebSlides({
     showIndex: true
 });
 
-function getDocumentHeight() {
-	const body = $("body")[0];
-	const html = $("html")[0];
-
-	return Math.max(
-		body.scrollHeight, body.offsetHeight,
-		html.clientHeight, html.scrollHeight, html.offsetHeight
-	);
-};
 
 function getScrollTop() {
-	const body = $("body")[0];
-	const html = $("html")[0];
+	const slide     = $("#webslides");
+	const max       = slide[0].scrollHeight;
+    const offset    = slide[0].offsetHeight;
+    const position  = slide.scrollTop();
 
-	return (window.pageYOffset !== undefined) ? window.pageYOffset : (html || body.parentNode || body).scrollTop;
+    if(max - offset == position){
+        return true;
+    }else{
+        return false;
+    }
+	
 }
 
 const observer = lozad(); // lazy loads elements with default selector as '.lozad'
@@ -44,7 +42,7 @@ mc.get('pan').set({ direction: Hammer.DIRECTION_ALL });
 mc.on("panup pandown", function(ev) {
     console.log(ev.type);
 
-    if (getScrollTop() == getDocumentHeight() - window.innerHeight) {
+    if (getScrollTop()) {
 
         console.warn(ev.type);
 
