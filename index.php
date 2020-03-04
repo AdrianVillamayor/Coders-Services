@@ -156,8 +156,8 @@
             <li>
               <div>
                 <h2>
-                  <span>
-                    <img alt="html" class="img-fluid img-logo" src="img/html_logo.png">
+                  <span class="img-logo">
+                    <img alt="html" class="img-fluid" src="img/html_logo.png">
                   </span>
                   HTML
                 </h2>
@@ -168,8 +168,8 @@
             <li>
               <div>
                 <h2>
-                <span>
-                    <img alt="css" class="img-fluid img-logo" src="img/css_logo.png">
+                <span class="img-logo">
+                    <img alt="css" class="img-fluid" src="img/css_logo.png">
                   </span>
                   CSS
                 </h2>
@@ -180,8 +180,8 @@
             <li>
               <div>
                 <h2>
-                <span>
-                    <img alt="javascript" class="img-fluid img-logo" src="img/js_logo.png">
+                <span class="img-logo">
+                    <img alt="javascript" class="img-fluid" src="img/js_logo.png">
                   </span>
                   JAVASCRIPT
                 </h2>

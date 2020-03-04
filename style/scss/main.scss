@@ -13,7 +13,7 @@ body {
   }
 }
 
-a{
+a {
   outline: none !important;
   text-decoration: none !important;
 
@@ -21,14 +21,13 @@ a{
 
   @include transition(all .3s linear);
 
-  &:hover{
+  &:hover {
     color: rgba($blue, .8);
   }
 }
 
-span{
-  .img-logo{
-    display: flex;
-    justify-content: flex-end;
-  }
+
+.img-logo {
+  display: flex;
+  justify-content: flex-end;
 }
