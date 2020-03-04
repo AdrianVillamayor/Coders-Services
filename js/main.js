@@ -33,7 +33,7 @@ mc.on("panup pandown", function(ev) {
     let position  = slide.scrollTop();
 
     if((max - offset == position)){
-        alert("next");
+        console.warn("next");
         window.ws.goNext();
     }
 });
@@ -43,7 +43,7 @@ mc.on("pandown ", function(ev) {
     let position  = slide.scrollTop();
 
     if(position == 0){
-        alert("back");
+        console.warn("back");
         window.ws.goPrev();
     }
 });
