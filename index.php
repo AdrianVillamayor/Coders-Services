@@ -156,7 +156,9 @@
             <li>
               <div>
                 <h2>
-                  <span>→</span>
+                  <span>
+                    <img alt="Responsive Design" class="img-fluid" src="img/html_logo.png">
+                  </span>
                   HTML
                 </h2>
                 Pug
@@ -166,7 +168,9 @@
             <li>
               <div>
                 <h2>
-                  <span>→</span>
+                <span>
+                    <img alt="Responsive Design" class="img-fluid" src="img/css_logo.png">
+                  </span>
                   CSS
                 </h2>
                 LESS - SCSS
@@ -176,7 +180,9 @@
             <li>
               <div>
                 <h2>
-                  <span>→</span>
+                <span>
+                    <img alt="Responsive Design" class="img-fluid" src="img/js_logo.png">
+                  </span>
                   JAVASCRIPT
                 </h2>
                 NodeJs -  Ajax - Electron - Vue - React
