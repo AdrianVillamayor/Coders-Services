@@ -43,9 +43,6 @@ mc.on("panup pandown", function(ev) {
     console.log(ev.type);
 
     if (getScrollTop()) {
-
-        console.warn(ev.type);
-
-
+        window.ws.goNext();
     }
 });
