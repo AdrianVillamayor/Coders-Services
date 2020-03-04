@@ -3,6 +3,5 @@ window.ws = new WebSlides({
 });
 
 
-const el = document.querySelector('img');
-const observer = lozad(el); // passing a `NodeList` (e.g. `document.querySelectorAll()`) is also valid
+const observer = lozad(); // lazy loads elements with default selector as '.lozad'
 observer.observe();

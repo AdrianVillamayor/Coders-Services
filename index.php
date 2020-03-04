@@ -56,7 +56,7 @@
 
   <main role="main">
 
-    <div class="fixed-top p-4"> <img class="img-fluid w-5" src="img/logo.png"></div>
+    <div class="fixed-top p-4"> <img class="img-fluid lozad w-5" src="img/logo.png"></div>
 
     <article id="webslides" class="vertical">
 
@@ -87,7 +87,7 @@
             <li>
               <a href="demos/landings.html" title="Landings">
                 <figure>
-                  <img alt="Responsive Design" class="img-fluid" src="img/multi-platf.svg">
+                  <img alt="Responsive Design" class="img-fluid lozad" src="img/multi-platf.svg">
                   <figcaption>
                     <h2>Multi-platform application development </h2>
                   </figcaption>
@@ -97,7 +97,7 @@
             <li>
               <a href="demos/portfolios.html" title="Portfolios">
                 <figure>
-                  <img alt="Responsive Design" class="img-fluid" src="img/responsive-design.svg">
+                  <img alt="Responsive Design" class="img-fluid lozad" src="img/responsive-design.svg">
                   <figcaption>
                     <h2> Responsive Design to work on all systems </h2>
                   </figcaption>
@@ -107,7 +107,7 @@
             <li>
               <a href="demos/keynote.html" title="Apple Keynote">
                 <figure>
-                  <img alt="Native & Hybrid ANDROID & iOS apps" style="padding: 65px;" class="img-fluid"
+                  <img alt="Native & Hybrid ANDROID & iOS apps" style="padding: 65px;" class="img-fluid lozad"
                     src="img/app.svg">
                   <figcaption>
                     <h2>Native & Hybrid ANDROID & iOS apps </h2>
@@ -129,7 +129,7 @@
               <div>
                 <h2>
                   <span class="img-logo">
-                    <img alt="PHP" class="img-fluid" src="img/php_logo.png">
+                    <img alt="PHP" class="img-fluid lozad" src="img/php_logo.png">
                   </span>
                   PHP
                 </h2>
@@ -142,7 +142,7 @@
                 <h2>
                   <span class="img-logo">
                     <div class="text-right">
-                      <img alt="golang" class="img-fluid w-40" src="img/go_logo.png">
+                      <img alt="golang" class="img-fluid lozad w-40" src="img/go_logo.png">
                     </div>
                   </span>
                   GO
@@ -154,7 +154,7 @@
               <div>
                 <h2>
                   <span class="img-logo">
-                    <img alt="PYTHON" class="img-fluid" src="img/py_logo.png">
+                    <img alt="PYTHON" class="img-fluid lozad" src="img/py_logo.png">
                   </span>
                   Python
                 </h2>
@@ -165,7 +165,7 @@
               <div>
                 <h2>
                   <span class="img-logo">
-                    <img alt="html" class="img-fluid" src="img/html_logo.png">
+                    <img alt="html" class="img-fluid lozad" src="img/html_logo.png">
                   </span>
                   HTML
                 </h2>
@@ -177,7 +177,7 @@
               <div>
                 <h2>
                   <span class="img-logo">
-                    <img alt="css" class="img-fluid" src="img/css_logo.png">
+                    <img alt="css" class="img-fluid lozad" src="img/css_logo.png">
                   </span>
                   CSS
                 </h2>
@@ -189,7 +189,7 @@
               <div>
                 <h2>
                   <span class="img-logo">
-                    <img alt="javascript" class="img-fluid" src="img/js_logo.png">
+                    <img alt="javascript" class="img-fluid lozad" src="img/js_logo.png">
                   </span>
                   JavaScript
                 </h2>
@@ -201,7 +201,7 @@
               <div>
                 <h2>
                   <span class="img-logo">
-                    <img alt="java" class="img-fluid" src="img/java_logo.png">
+                    <img alt="java" class="img-fluid lozad" src="img/java_logo.png">
                   </span>
                   Java
                 </h2>
@@ -212,7 +212,7 @@
               <div>
                 <h2>
                   <span class="img-logo">
-                    <img alt="java" class="img-fluid" src="img/mysql_logo.png">
+                    <img alt="java" class="img-fluid lozad" src="img/mysql_logo.png">
                   </span>
                   MySQL
                 </h2>
@@ -222,7 +222,7 @@
               <div>
                 <h2>
                   <span class="img-logo">
-                    <img alt="java" class="img-fluid" src="img/mongodb_logo.png">
+                    <img alt="java" class="img-fluid lozad" src="img/mongodb_logo.png">
                   </span>
                   Mongo DB
                 </h2>
@@ -242,7 +242,7 @@
               <div>
                 <h2>
                   <span class="img-logo">
-                    <img alt="PHP" class="img-fluid" src="img/android_logo.png">
+                    <img alt="PHP" class="img-fluid lozad" src="img/android_logo.png">
                   </span>
                   Java
                 </h2>
@@ -255,7 +255,7 @@
                 <h2>
                   <span class="img-logo">
                     <div class="text-right">
-                      <img alt="golang" class="img-fluid w-40" src="img/swift_logo.png">
+                      <img alt="golang" class="img-fluid lozad w-40" src="img/swift_logo.png">
                     </div>
                   </span>
                   Swift
@@ -267,7 +267,7 @@
               <div>
                 <h2>
                   <span class="img-logo">
-                    <img alt="PYTHON" class="img-fluid" src="img/flutter_logo.png">
+                    <img alt="PYTHON" class="img-fluid lozad" src="img/flutter_logo.png">
                   </span>
                   Flutter
                 </h2>
@@ -278,7 +278,7 @@
               <div>
                 <h2>
                   <span class="img-logo">
-                    <img alt="html" class="img-fluid" src="img/ionic_logo.png">
+                    <img alt="html" class="img-fluid lozad" src="img/ionic_logo.png">
                   </span>
                   Ionic
                 </h2>
