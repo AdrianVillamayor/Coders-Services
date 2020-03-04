@@ -54,6 +54,7 @@
 <body>
 
   <main role="main">
+  <div class="fixed-top"> <img class="img-fluid" src="img/logo.png" ></div>
 
     <article id="webslides" class="vertical">
       
@@ -76,7 +77,6 @@
       </section>
      
       <section>
-      <div class="fixed-top"> <img class="img-fluid" src="img/logo.png" ></div>
 
         <div class="wrap">
           <h2><strong > Why Coders Services ? </strong></h2>
