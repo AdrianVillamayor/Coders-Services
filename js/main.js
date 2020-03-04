@@ -1,10 +1,8 @@
 window.ws = new WebSlides({
-    autoslide: false,
-    changeOnClick: false,
     loop: false,
-    minWheelDelta: 40,
-    navigateOnScroll: true,
-    scrollWait: 450,
-    slideOffset: 50,
-    showIndex: true
 });
+
+
+const el = document.querySelector('img');
+const observer = lozad(el); // passing a `NodeList` (e.g. `document.querySelectorAll()`) is also valid
+observer.observe();
