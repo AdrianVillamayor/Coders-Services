@@ -12,7 +12,7 @@ window.ws = new WebSlides({
 const observer = lozad(); // lazy loads elements with default selector as '.lozad'
 observer.observe();
 
-$(".arrow-box").on("click", function(e){
+$(".arrow").on("click", function(e){
     e.preventDefault();
     window.ws.goNext();
 });
