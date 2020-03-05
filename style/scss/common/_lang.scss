@@ -1,11 +1,11 @@
 #dropdown {
     width: 80px;
     cursor: pointer;
-    &:hover a:nth-child(1) {
+    &:hover button:nth-child(1) {
       border-radius: 20px 20px 0 0;
     }
-   
-    a {
+  
+    button {
       opacity: 0;
       width: 100%;
       color: $white;
@@ -32,7 +32,7 @@
       }
     }
   
-    &:hover a {
+    &:hover button {
       opacity: 1 !important;
       pointer-events: auto;
     }

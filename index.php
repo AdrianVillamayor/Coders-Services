@@ -72,15 +72,13 @@ include_once("Core/multilang.php");
           <?php
             if($lang == "es"){
               echo  '
-                <a data-id="es">'._("Spanish").'</a>
-                <a data-id="es">'._("Spanish").'</a>
-                <a data-id="en">'._("English").'</a>
+                <button data-id="es">'._("Spanish").'</button>
+                <button data-id="en">'._("English").'</button>
               ';
             }else{
               echo  '
-                <a data-id="en">English</a>
-                <a data-id="en">English</a>
-                <a data-id="es">'._("Spanish").'</a>
+                <button data-id="en">English</button>
+                <button data-id="es">'._("Spanish").'</button>
               ';
             }
           ?>
