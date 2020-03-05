@@ -36,7 +36,7 @@ a {
 }
 
 .arrow-box {
-  position: absolute; 
+  position: absolute;
   bottom: 100px;
 
   @media screen and (max-width: $medium - 1px) {
@@ -84,7 +84,7 @@ a {
   position: relative;
   top: 50%;
   left: 50%;
-  @include transform( translate(-50%, -50%) );
+  @include transform(translate(-50%, -50%));
 
   span {
     display: block;
@@ -93,7 +93,7 @@ a {
     border-bottom: 5px solid $white;
     border-right: 5px solid $white;
 
-    @include transform( rotate(45deg) );
+    @include transform(rotate(45deg));
 
     margin: -10px;
     animation: animate 2s infinite;
@@ -111,7 +111,7 @@ a {
 @keyframes animate {
   0% {
     opacity: 0;
-    @include transform( rotate(45deg) translate(-20px, -20px) );
+    @include transform(rotate(45deg) translate(-20px, -20px));
 
   }
 
@@ -121,7 +121,16 @@ a {
 
   100% {
     opacity: 0;
-    @include transform( rotate(45deg) translate(20px, 20px));
+    @include transform(rotate(45deg) translate(20px, 20px));
 
+  }
+}
+
+
+.grow {
+  @include transition(all .3s linear);
+
+  &:hover {
+    @include transform (scale(1.1));
   }
 }

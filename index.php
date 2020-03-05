@@ -68,16 +68,29 @@ include_once("Core/multilang.php");
 
       <div class="flex-justify-flex-end ">          
         <div id="dropdown">
-          <button data-id="en">English</button>
-          <button data-id="es">Spanish</button>
-          <button data-id="ca">Catalan</button>
+
+          <?php
+            if($lang == "es"){
+              echo  '
+                <button data-id="es">Spanish</button>
+                <button data-id="en">English</button>
+              ';
+            }else{
+              echo  '
+                <button data-id="en">English</button>
+                <button data-id="es">Spanish</button>
+              ';
+            }
+          ?>
+ 
+          <!-- <button data-id="ca">Catalan</button> -->
         </div>
       </div>
     </div>
 
-    <article id="webslides" class="vertical container">
+    <article id="webslides" class="vertical">
 
-      <section>
+      <section class="container">
         <div class="wrap aligncenter">
           <h1><strong><?=_("Multi-platform application development")?> </strong></h1>
 
@@ -104,7 +117,7 @@ include_once("Core/multilang.php");
 
       </section>
 
-      <section>
+      <section class="container">
         <div class="wrap">
           <h2 class="my-3"><strong> <?=_("Why Coders Services ?")?> </strong></h2>
           <p class="text-intro my-4"><?=_("We are able to create complete environments, joining mobile and web technologies and giving a complete experience to the users")?></p>
@@ -145,7 +158,7 @@ include_once("Core/multilang.php");
         </div>
       </section>
 
-      <section id="section-6" class="slide current" style="">
+      <section class="container">
         <div class="wrap">
 
           <h2 class="mt-3 mb-5"><?=_("CUSTOM PROGRAMMING")?></h2>
@@ -175,7 +188,7 @@ include_once("Core/multilang.php");
         </div>
       </section>
 
-      <section class="slide current" style="">
+      <section class="container">
         <div class="wrap">
           <h2 class="my-3"><?=_("WEB TECHNOLOGY")?></h2>
 
@@ -304,7 +317,7 @@ include_once("Core/multilang.php");
         </div>
       </section>
 
-      <section class="slide current" style="">
+      <section class="container">
         <div class="wrap">
           <h2 class="my-3"><?=_("MOBILE TECHNOLOGY")?></h2>
 
@@ -367,13 +380,13 @@ include_once("Core/multilang.php");
         </div>
       </section>
 
-      <section class="aligncenter">
+      <section class="aligncenter container ">
         <div class="wrap">
           <h2 class="my-3"><strong><?=_("Ready to start a project ?")?></strong> </h2>
           <p class="text-intro my-5"><?=_("Whether it is enhancing an existing application or architecting an enterprise application, our developers are up for your challenge")?></p>
           <p>
-            <a href="mailto:hola@coders.services" title="hola@coders.services ">
-            <img class="img-fluid" style="width: 150px" src="img/letstalk_w.png">
+            <a href="mailto:hola@coders.services" target="_blank" rel="noopener" title="hola@coders.services ">
+            <img class="img-fluid grow" style="width: 150px" src="img/letstalk_w.png">
             </a>
           </p>
         </div>
@@ -393,6 +406,9 @@ include_once("Core/multilang.php");
 <script src="js/plugins/swiped-events.js?<?=time()?>"></script>
 <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/lozad/dist/lozad.min.js"></script>
 
+<script>
+  let lag
+</script>
 <script src="js//main.js?<?=time()?>"></script>
 
 </html>
