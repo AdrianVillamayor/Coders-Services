@@ -36,16 +36,18 @@ a {
 }
 
 .arrow-box {
+  position: absolute; 
+  bottom: 100px;
 
   @media screen and (max-width: $medium - 1px) {
     width: 90%;
-
+    bottom: 70px;
 
   }
 
   @media screen and (min-width: $medium) {
     width: 96%;
-
+    bottom: 100px;
   }
 }
 
