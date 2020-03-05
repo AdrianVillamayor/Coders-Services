@@ -67,25 +67,11 @@ include_once("Core/multilang.php");
       </div>
 
       <div>          
-        <div class="switch-lang"> 
-          <div class="current-lang">
-            <p class="lang-text">English</p>
-          </div>
-          <div class="lang-dropdown">
-            <div class="selecting-lang">
-              <p class="lang-text">Español</p>
-            </div>
-            <div class="selecting-lang">
-              <p class="lang-text">Français</p>
-            </div>
-            <div class="selecting-lang">
-              <p class="lang-text">Italiano </p>
-            </div>
-            <div class="selecting-lang">
-              <p class="lang-text">Deutsch</p>
-            </div>
-          </div>
-        </div>
+        <select class="form-control" data-width="fit">
+          <option value='En'>En</option>
+          <option value='Es'>Es</option>
+          <option value='Ca'>Ca</option>
+        </select>
       </div>
     </div>
 
