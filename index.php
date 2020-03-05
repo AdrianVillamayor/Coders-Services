@@ -66,6 +66,8 @@
           <h1><strong>Multi-platform application development </strong></h1>
 
           <p class="text-intro">We use the latest technologies to make this happen as by magic. </p>
+          
+          <p class="text-intro"> <img class="img-fluid" src="img/letstalk_w.png.png"></p>
 
         </div>
 
