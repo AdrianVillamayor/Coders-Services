@@ -33,8 +33,8 @@ define('DEFAULT_LOCALE', 'en_US');
 define('LOCALE_DOMAIN', 'coders.services');
 
 if ($lang == 'es') $locale = 'es_ES';
-if ($lang == 'ca') $locale = 'ca_ES';
-// if ($lang == 'en') $locale = 'en_US';
+// if ($lang == 'ca') $locale = 'ca_ES';
+if ($lang == 'en') $locale = 'en_US';
 
 $_SESSION['locale'] = $locale;
 $_SESSION['lang']   = $lang;
