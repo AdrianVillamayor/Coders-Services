@@ -82,7 +82,7 @@
       <section>
 
         <div class="wrap">
-          <h2><strong> Why Coders Services ? </strong></h2>
+          <h2 class="my-3"><strong> Why Coders Services ? </strong></h2>
 
           <ul class="flexblock gallery container">
             <li>
@@ -122,7 +122,7 @@
 
       <section id="section-4" class="slide current" style="">
         <div class="wrap">
-          <h2>WEB TECHNOLOGY</h2>
+          <h2 class="my-3">WEB TECHNOLOGY</h2>
 
           <ul class="flexblock features">
 
@@ -235,7 +235,7 @@
 
       <section id="section-4" class="slide current" style="">
         <div class="wrap">
-          <h2>MOBILE TECHNOLOGY</h2>
+          <h2 class="my-3">MOBILE TECHNOLOGY</h2>
 
           <ul class="flexblock features">
 
@@ -294,7 +294,7 @@
 
       <section class="aligncenter">
         <div class="wrap">
-          <h2><strong>Ready to Start?</strong> </h2>
+          <h2 class="my-3"><strong>Ready to Start?</strong> </h2>
           <p class="text-intro">Create your own presentation instantly. <br>120+ premium slides ready to use.</p>
           <p>
             <a href="https://webslides.tv/webslides-latest.zip" class="button" title="Download WebSlides">
