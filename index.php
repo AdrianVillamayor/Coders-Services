@@ -89,13 +89,16 @@
 
       <section id="section-6" class="slide current" style="">
         <div class="wrap">
+
+          <h2 class="my-3">CUSTOM PROGRAMMING</h2>
+          
           <div class="grid vertical-align">
             <div class="column">
               <h4>
                 <svg class="fa-life-ring">
 
                 </svg>
-                <strong>Guides</strong>
+                <strong>FRONT-END</strong>
               </h4>
               <p>If you need help, here's just some tutorials. Just a basic knowledge of HTML is required:</p>
               <ul class="description">
@@ -113,7 +116,7 @@
                 <svg class="fa-cubes">
 
                 </svg>
-                <strong>Built to expand</strong>
+                <strong>BACK-END</strong>
               </h4>
               <p>The best way to <strong>inspire with your content</strong> is to connect on a personal level:</p>
               <ul class="description">
