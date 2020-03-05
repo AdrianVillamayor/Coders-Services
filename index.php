@@ -96,9 +96,6 @@
           
             <div class="column">
               <h4>
-                <svg class="fa-cubes">
-
-                </svg>
                 <strong>BACK-END</strong>
               </h4>
               <p>The back-end of a website is comprised of complicated code that’s never seen or interacted with, but drives the whole show</p>
@@ -111,14 +108,11 @@
 
             <div class="column">
               <h4>
-                <svg class="fa-life-ring">
-
-                </svg>
                 <strong>FRONT-END</strong>
               </h4>
               <p>Front-end web development refers to any functional elements that users see and interact with, such as image carousels or slide-out menus. Our front end functional pieces are custom-fit, built-from-scratch solutions that aren’t just exceptionally easy to maintain and expand on; they’re also reliable and stable</p>
             </div>
-            
+
           </div>
           <!--end .grid -->
         </div>
