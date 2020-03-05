@@ -279,7 +279,9 @@
               <div>
                 <h2>
                   <span class="img-logo">
-                    <img alt="Ionic" class="img-fluid lozad" src="img/ionic_logo.png">
+                    <div class="text-right flex flex-align-center">
+                      <img alt="Ionic" class="img-fluid lozad" src="img/ionic_logo.png">
+                    </div>
                   </span>
                   Ionic
                 </h2>
