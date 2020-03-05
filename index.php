@@ -32,7 +32,7 @@
   <meta property="og:type" content="article">
   <meta property="og:title" content="Coders Services - Multi-platform application development"> <!-- EDIT -->
   <meta property="og:description" content=" We use the latest technologies to make this happen as by magic."> <!-- EDIT -->
-  <meta property="og:image" content="iimg/fav/android-chrome-256x256.png"> <!-- EDIT -->
+  <meta property="og:image" content="img/fav/android-chrome-256x256.png"> <!-- EDIT -->
 
   <!-- TWITTER -->
   <meta name="twitter:card" content="summary_large_image">
