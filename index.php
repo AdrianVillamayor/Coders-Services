@@ -90,7 +90,7 @@
 
           <ul class="flexblock gallery container">
             <li>
-              <a href="demos/landings.html" title="Landings">
+              <a href="javascript:;" title="Landings">
                 <figure>
                   <img alt="Responsive Design" class="img-fluid lozad" src="img/multi-platf.svg">
                   <figcaption>
@@ -100,7 +100,7 @@
               </a>
             </li>
             <li>
-              <a href="demos/portfolios.html" title="Portfolios">
+              <a href="javascript:;" title="Portfolios">
                 <figure>
                   <img alt="Responsive Design" class="img-fluid lozad" src="img/responsive-design.svg">
                   <figcaption>
@@ -110,7 +110,7 @@
               </a>
             </li>
             <li class="alone_2">
-              <a href="demos/keynote.html" title="Apple Keynote">
+              <a href="#page=4" title="Apple Keynote">
                 <figure>
                   <img alt="Native & Hybrid ANDROID & iOS apps" style="padding: 65px;" class="img-fluid lozad"
                     src="img/app.svg">
