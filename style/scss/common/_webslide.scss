@@ -281,7 +281,7 @@
   #webslides {
     -ms-overflow-style: none;
     -webkit-overflow-scrolling: touch;
-    height: 100vh;
+    height: 90vh;
     overflow-x: hidden;
     overflow-y: scroll;
   
@@ -1576,7 +1576,7 @@
     -webkit-box-pack: center;
     -ms-flex-pack: center;
     justify-content: center;
-    min-height: 100vh;
+    min-height: 90vh;
   
     /*Fullscreen*/
     /* Prototyping? min-height: 720px (Baseline: 8px = .8rem)*/
@@ -1601,7 +1601,7 @@
     -webkit-box-pack: center;
     -ms-flex-pack: center;
     justify-content: center;
-    min-height: 100vh;
+    min-height: 90vh;
   
     /*Fullscreen*/
     /* Prototyping? min-height: 720px (Baseline: 8px = .8rem)*/
@@ -3052,10 +3052,10 @@
   }
   
   .fullscreen [class*='card-'] {
-    min-height: 100vh;
+    min-height: 90vh;
   
     > a {
-      min-height: 100vh;
+      min-height: 90vh;
     }
   }
   
@@ -3729,7 +3729,7 @@
     -webkit-box-pack: start;
     -ms-flex-pack: start;
     justify-content: flex-start;
-    min-height: 100vh;
+    min-height: 90vh;
     position: relative;
     z-index: 2;
   
