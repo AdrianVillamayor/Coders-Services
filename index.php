@@ -295,7 +295,7 @@
       <section class="aligncenter">
         <div class="wrap">
           <h2 class="my-3"><strong>Ready to start a project ?</strong> </h2>
-          <p class="text-intro my-3">Our dedicated team of experienced web developers create custom online solutions. Whether it is enhancing an existing application or architecting an enterprise application, our developers are up for your challenge</p>
+          <p class="text-intro my-3">Whether it is enhancing an existing application or architecting an enterprise application, our developers are up for your challenge</p>
           <p>
             <a href="mailto:hola@coders.services " class="button" title="hola@coders.services ">
               </svg>
