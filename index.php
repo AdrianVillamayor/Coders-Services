@@ -57,7 +57,11 @@
 
   <main role="main">
 
-    <div class="fixed-top flex-justify-flex-end p-3" style="opacity: .9;"> <img class="img-fluid lozad" style="width:50px;" src="img/logo.png"></div>
+    <div class="fixed-top flex-justify-flex-end p-3" style="opacity: .9;">
+      <div>
+        <img class="img-fluid lozad" style="width:50px;" src="img/logo.png">
+      </div>
+    </div>
 
     <article id="webslides" class="vertical container">
 
@@ -130,7 +134,9 @@
               <div>
                 <h2>
                   <span class="img-logo">
-                    <img alt="PHP" class="img-fluid lozad" src="img/php_logo.png">
+                    <div class="text-right flex flex-align-center">
+                      <img alt="PHP" class="img-fluid lozad" src="img/php_logo.png">
+                    </div>
                   </span>
                   PHP
                 </h2>
@@ -155,7 +161,9 @@
               <div>
                 <h2>
                   <span class="img-logo">
-                    <img alt="PYTHON" class="img-fluid lozad" src="img/py_logo.png">
+                    <div class="text-right flex flex-align-center">
+                      <img alt="PYTHON" class="img-fluid lozad" src="img/py_logo.png">
+                    </div>
                   </span>
                   Python
                 </h2>
@@ -166,7 +174,9 @@
               <div>
                 <h2>
                   <span class="img-logo">
-                    <img alt="html" class="img-fluid lozad" src="img/html_logo.png">
+                    <div class="text-right flex flex-align-center">
+                      <img alt="html" class="img-fluid lozad" src="img/html_logo.png">
+                    </div>
                   </span>
                   HTML
                 </h2>
@@ -178,7 +188,9 @@
               <div>
                 <h2>
                   <span class="img-logo">
-                    <img alt="css" class="img-fluid lozad" src="img/css_logo.png">
+                    <div class="text-right flex flex-align-center">
+                      <img alt="css" class="img-fluid lozad" src="img/css_logo.png">
+                    </div>
                   </span>
                   CSS
                 </h2>
@@ -190,7 +202,9 @@
               <div>
                 <h2>
                   <span class="img-logo">
-                    <img alt="javascript" class="img-fluid lozad" src="img/js_logo.png">
+                    <div class="text-right flex flex-align-center">
+                      <img alt="javascript" class="img-fluid lozad" src="img/js_logo.png">
+                    </div>
                   </span>
                   JavaScript
                 </h2>
@@ -202,7 +216,9 @@
               <div>
                 <h2>
                   <span class="img-logo">
-                    <img alt="java" class="img-fluid lozad" src="img/java_logo.png">
+                    <div class="text-right flex flex-align-center">
+                      <img alt="java" class="img-fluid lozad" src="img/java_logo.png">
+                    </div>
                   </span>
                   Java
                 </h2>
@@ -213,7 +229,9 @@
               <div>
                 <h2>
                   <span class="img-logo">
-                    <img alt="java" class="img-fluid lozad" src="img/mysql_logo.png">
+                    <div class="text-right flex flex-align-center">
+                      <img alt="java" class="img-fluid lozad" src="img/mysql_logo.png">
+                    </div>
                   </span>
                   MySQL
                 </h2>
@@ -223,7 +241,9 @@
               <div>
                 <h2>
                   <span class="img-logo">
-                    <img alt="java" class="img-fluid lozad" src="img/mongodb_logo.png">
+                    <div class="text-right flex flex-align-center">
+                      <img alt="java" class="img-fluid lozad" src="img/mongodb_logo.png">
+                    </div>
                   </span>
                   Mongo DB
                 </h2>
@@ -243,7 +263,9 @@
               <div>
                 <h2>
                   <span class="img-logo">
-                    <img alt="android" class="img-fluid lozad" src="img/android_logo.png">
+                    <div class="text-right flex flex-align-center">
+                      <img alt="android" class="img-fluid lozad" src="img/android_logo.png">
+                    </div>
                   </span>
                   Android
                 </h2>
@@ -268,7 +290,9 @@
               <div>
                 <h2>
                   <span class="img-logo">
-                    <img alt="Flutter" class="img-fluid lozad" src="img/flutter_logo.png">
+                    <div class="text-right flex flex-align-center">
+                      <img alt="Flutter" class="img-fluid lozad" src="img/flutter_logo.png">
+                    </div>
                   </span>
                   Flutter
                 </h2>
@@ -295,7 +319,8 @@
       <section class="aligncenter">
         <div class="wrap">
           <h2 class="my-3"><strong>Ready to start a project ?</strong> </h2>
-          <p class="text-intro my-5">Whether it is enhancing an existing application or architecting an enterprise application, our developers are up for your challenge</p>
+          <p class="text-intro my-5">Whether it is enhancing an existing application or architecting an enterprise
+            application, our developers are up for your challenge</p>
           <p>
             <a href="mailto:hola@coders.services " class="button" title="hola@coders.services ">
               </svg>
