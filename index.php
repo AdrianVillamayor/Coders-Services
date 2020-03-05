@@ -212,7 +212,7 @@
                   </span>
                   JavaScript
                 </h2>
-                NodeJs - Ajax - Electron - Vue - React
+                Node - Ajax - Electron - Vue - React
               </div>
             </li>
 
