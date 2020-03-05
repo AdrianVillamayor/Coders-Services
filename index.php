@@ -88,67 +88,46 @@
       </section>
 
       <section id="section-6" class="slide current" style="">
-          <div class="wrap">
-            <div class="grid vertical-align">
-              <div class="column">
-                <h4>
-                  <svg class="fa-life-ring">
-                    
-                  </svg>
-                  <strong>Guides</strong>
-                </h4>
-                <p>If you need help, here's just some tutorials. Just a basic knowledge of HTML is required:</p>
-                <ul class="description">
-                  <li><a href="/demos/components.html" title="WebSlides Components">Components</a> · <a href="/demos/classes.html" title="WebSlides Classes">Classes</a>.</li>
-                  <li><a href="https://codepen.io/webslides" title="WebSlides on Codepen">WebSlides on Codepen</a>.</li>
-                  <li><a href="/demos/media.html" title="WebSlides Media">WebSlides Media: images, videos...</a></li>
-                </ul>
-              </div>
-              <div class="column">
-                <figure><img class="aligncenter" src="/static/images/setup.png" alt="WebSlides Files"></figure>
-              </div>
-              <div class="column">
-                <h4>
-                  <svg class="fa-cubes">
-                    
-                  </svg>
-                  <strong>Built to expand</strong>
-                </h4>
-                <p>The best way to <strong>inspire with your content</strong> is to connect on a personal level:</p>
-                <ul class="description">
-                  <li>Background images: <a href="http://unsplash.com">Unsplash</a>.</li>
-                  <li>CSS animations: <a href="https://daneden.github.io/animate.css/">Animate.css</a>.</li>
-                  <li>Longforms: <a href="http://michalsnik.github.io/aos/"> Animate on scroll</a>.</li>
-                </ul>
-              </div>
-            </div>
-            <!--end .grid -->
-          </div>
-        </section>
+        <div class="wrap">
+          <div class="grid vertical-align">
+            <div class="column">
+              <h4>
+                <svg class="fa-life-ring">
 
-      <section class="slide current" style="">
-          <!--.wrap = container (width: 90%) -->
-          <div class="wrap size-50 aligncenter">
-            <h2><strong>Why WebSlides?</strong></h2>
-            <p class="text-intro">Good karma &amp; Productivity.</p>
-            <div class="bg-white shadow">
-              <ul class="flexblock reasons">
-                <li>
-                  <h2>An opportunity to engage.</h2>
-                  <p>WebSlides is about good karma. This is about telling the story, and sharing it in a beautiful way. HTML and CSS as narrative elements.</p>
-                </li>
-                <li>
-                  <h2>Work better, faster.</h2>
-                  <p>Designers, marketers, and journalists can now focus on the content. Simply <a href="/demos" title="WebSlides Demos">choose a demo</a> and customize it in minutes.</p>
-                </li>
+                </svg>
+                <strong>Guides</strong>
+              </h4>
+              <p>If you need help, here's just some tutorials. Just a basic knowledge of HTML is required:</p>
+              <ul class="description">
+                <li><a href="/demos/components.html" title="WebSlides Components">Components</a> · <a
+                    href="/demos/classes.html" title="WebSlides Classes">Classes</a>.</li>
+                <li><a href="https://codepen.io/webslides" title="WebSlides on Codepen">WebSlides on Codepen</a>.</li>
+                <li><a href="/demos/media.html" title="WebSlides Media">WebSlides Media: images, videos...</a></li>
               </ul>
             </div>
-            <!-- .end .bg-white shadow -->
-          </div>
-          <!-- .end .wrap -->
-        </section>
+            <div class="column">
+              <figure><img class="aligncenter" src="/static/images/setup.png" alt="WebSlides Files"></figure>
+            </div>
+            <div class="column">
+              <h4>
+                <svg class="fa-cubes">
 
-      <section  class="slide current" style="">
+                </svg>
+                <strong>Built to expand</strong>
+              </h4>
+              <p>The best way to <strong>inspire with your content</strong> is to connect on a personal level:</p>
+              <ul class="description">
+                <li>Background images: <a href="http://unsplash.com">Unsplash</a>.</li>
+                <li>CSS animations: <a href="https://daneden.github.io/animate.css/">Animate.css</a>.</li>
+                <li>Longforms: <a href="http://michalsnik.github.io/aos/"> Animate on scroll</a>.</li>
+              </ul>
+            </div>
+          </div>
+          <!--end .grid -->
+        </div>
+      </section>
+
+      <section class="slide current" style="">
         <div class="wrap">
           <h2 class="my-3">WEB TECHNOLOGY</h2>
 
@@ -277,7 +256,7 @@
         </div>
       </section>
 
-      <section  class="slide current" style="">
+      <section class="slide current" style="">
         <div class="wrap">
           <h2 class="my-3">MOBILE TECHNOLOGY</h2>
 
