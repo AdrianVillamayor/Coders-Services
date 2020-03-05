@@ -102,9 +102,9 @@
               </h4>
               <p>Front-end web development refers to any functional elements that users see and interact with, such as image carousels or slide-out menus. Our front end functional pieces are custom-fit, built-from-scratch solutions that aren’t just exceptionally easy to maintain and expand on; they’re also reliable and stable</p>
             </div>
-            
+
             <div class="column">
-              <figure><img class="aligncenter" src="/static/images/setup.png" alt="WebSlides Files"></figure>
+              <figure><img class="aligncenter" src="img/programming.svg" alt="WebSlides Files"></figure>
             </div>
             <div class="column">
               <h4>
