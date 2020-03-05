@@ -28,6 +28,8 @@ if (in_array("ca", $explode_url)) {
     $lang = 'ca';
 }
 
+var_dump($lang);
+
 define('LOCALE_DIR',  'locale');
 define('DEFAULT_LOCALE', 'en_US');
 define('LOCALE_DOMAIN', 'metalast');
