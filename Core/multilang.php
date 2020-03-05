@@ -32,7 +32,7 @@ var_dump($lang);
 
 define('LOCALE_DIR',  'locale');
 define('DEFAULT_LOCALE', 'en_US');
-define('LOCALE_DOMAIN', 'metalast');
+define('LOCALE_DOMAIN', 'coders.services');
 
 if ($lang == 'es') $locale = 'es_ES';
 if ($lang == 'ca') $locale = 'ca_ES';
