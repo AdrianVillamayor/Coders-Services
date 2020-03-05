@@ -72,18 +72,18 @@
           <p class="text-intro">We use the latest technologies to make this happen as by magic. </p>
 
 
-            <a href="javascript:;">
-              
-              <div class="arrow">
-                <span></span>
-                <span></span>
-                <span></span>
-              </div>
+          <a href="javascript:;" class="flex-align-center mt-5">
 
-            </a>
+            <div class="arrow">
+              <span></span>
+              <span></span>
+              <span></span>
+            </div>
 
+          </a>
 
         </div>
+
       </section>
 
       <section>
