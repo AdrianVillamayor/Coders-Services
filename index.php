@@ -68,13 +68,9 @@ include_once("Core/multilang.php");
 
       <div class="flex-justify-flex-end ">          
         <div id="dropdown">
-          <button>Langauges</button>
-          <button>English</button>
-          <button>Dutch</button>
-          <button>French</button>
-          <button>Japanese</button>
-          <button>Chinese</button>
-          <button>Polish</button>
+          <button data-id="en">English</button>
+          <button data-id="es">Spanish</button>
+          <button data-id="ca">Catalan</button>
         </div>
       </div>
     </div>
