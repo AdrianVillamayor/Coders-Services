@@ -88,9 +88,9 @@
       </section>
 
       <section>
-
         <div class="wrap">
           <h2 class="my-3"><strong> Why Coders Services ? </strong></h2>
+          <p class="text-intro my-4">We are able to create complete environments, joining mobile and web technologies and giving a complete experience to the users</p>
 
           <ul class="flexblock gallery container">
             <li>
@@ -128,7 +128,29 @@
         </div>
       </section>
 
-      <section id="section-4" class="slide current" style="">
+      <section class="slide current" style="">
+          <!--.wrap = container (width: 90%) -->
+          <div class="wrap size-50 aligncenter">
+            <h2><strong>Why WebSlides?</strong></h2>
+            <p class="text-intro">Good karma &amp; Productivity.</p>
+            <div class="bg-white shadow">
+              <ul class="flexblock reasons">
+                <li>
+                  <h2>An opportunity to engage.</h2>
+                  <p>WebSlides is about good karma. This is about telling the story, and sharing it in a beautiful way. HTML and CSS as narrative elements.</p>
+                </li>
+                <li>
+                  <h2>Work better, faster.</h2>
+                  <p>Designers, marketers, and journalists can now focus on the content. Simply <a href="/demos" title="WebSlides Demos">choose a demo</a> and customize it in minutes.</p>
+                </li>
+              </ul>
+            </div>
+            <!-- .end .bg-white shadow -->
+          </div>
+          <!-- .end .wrap -->
+        </section>
+
+      <section  class="slide current" style="">
         <div class="wrap">
           <h2 class="my-3">WEB TECHNOLOGY</h2>
 
@@ -257,7 +279,7 @@
         </div>
       </section>
 
-      <section id="section-4" class="slide current" style="">
+      <section  class="slide current" style="">
         <div class="wrap">
           <h2 class="my-3">MOBILE TECHNOLOGY</h2>
 
