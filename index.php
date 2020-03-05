@@ -90,7 +90,7 @@
       <section id="section-6" class="slide current" style="">
         <div class="wrap">
 
-          <h2 class="my-3">CUSTOM PROGRAMMING</h2>
+          <h2 class="mt-3 mb-5">CUSTOM PROGRAMMING</h2>
 
           <div class="grid vertical-align">
           
