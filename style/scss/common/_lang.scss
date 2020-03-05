@@ -1,5 +1,5 @@
 #dropdown {
-    width: 100px;
+    width: 80px;
     cursor: pointer;
     &:hover button:nth-child(1) {
       border-radius: 20px 20px 0 0;
@@ -8,6 +8,7 @@
     button {
       opacity: 0;
       width: 100%;
+      color: $white;
       border-style: none;
       background: $pink_hover;
       padding: 10px;
