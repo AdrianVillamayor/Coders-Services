@@ -70,7 +70,7 @@
         </div>
         <div class="wrap aligncenter">
       
-          <p style="position: relative; top: 50px;"> <img class="img-fluid" style="width: 150px" src="img/letstalk_w.png.png"></p>
+          <p style="position: relative; top: 50px;"> <img class="img-fluid" style="width: 150px" src="img/letstalk_w.png"></p>
 
         </div>
 
@@ -359,7 +359,7 @@
             application, our developers are up for your challenge</p>
           <p>
             <a href="mailto:hola@coders.services" title="hola@coders.services ">
-            <img class="img-fluid" style="width: 150px" src="img/letstalk_b.png.png">
+            <img class="img-fluid" style="width: 150px" src="img/letstalk_b.png">
             </a>
           </p>
         </div>
