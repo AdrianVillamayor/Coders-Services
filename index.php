@@ -87,6 +87,47 @@
 
       </section>
 
+      <section>
+        <div class="wrap">
+          <h2 class="my-3"><strong> Why Coders Services ? </strong></h2>
+          <p class="text-intro my-4">We are able to create complete environments, joining mobile and web technologies and giving a complete experience to the users</p>
+
+          <ul class="flexblock gallery container">
+            <li>
+              <a href="demos/landings.html" title="Landings">
+                <figure>
+                  <img alt="Responsive Design" class="img-fluid lozad" src="img/multi-platf.svg">
+                  <figcaption>
+                    <h2>Multi-platform application development </h2>
+                  </figcaption>
+                </figure>
+              </a>
+            </li>
+            <li>
+              <a href="demos/portfolios.html" title="Portfolios">
+                <figure>
+                  <img alt="Responsive Design" class="img-fluid lozad" src="img/responsive-design.svg">
+                  <figcaption>
+                    <h2> Responsive Design to work on all systems </h2>
+                  </figcaption>
+                </figure>
+              </a>
+            </li>
+            <li class="alone_2">
+              <a href="demos/keynote.html" title="Apple Keynote">
+                <figure>
+                  <img alt="Native & Hybrid ANDROID & iOS apps" style="padding: 65px;" class="img-fluid lozad"
+                    src="img/app.svg">
+                  <figcaption>
+                    <h2>Native & Hybrid ANDROID & iOS apps </h2>
+                  </figcaption>
+                </figure>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </section>
+
       <section id="section-6" class="slide current" style="">
         <div class="wrap">
 
