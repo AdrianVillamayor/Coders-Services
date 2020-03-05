@@ -73,9 +73,8 @@
 
         </div>
 
-        <div class="flex-justify-center w-90" style="position: absolute; bottom: 100px;">
+        <div class="flex-justify-center w-90 arrow-box" style="position: absolute; bottom: 100px;">
           <a href="javascript:;" class="flex-align-center mt-5">
-
             <div class="arrow">
               <span></span>
               <span></span>
