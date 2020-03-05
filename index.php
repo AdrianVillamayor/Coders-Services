@@ -16,7 +16,7 @@
   <link rel="icon" type="image/png" sizes="16x16" href="img/fav/favicon-16x16.png">
   <link rel="manifest" href="img/fav/site.webmanifest">
   <link rel="mask-icon" href="img/fav/safari-pinned-tab.svg" color="#ec0256">
-  <meta name="msapplication-TileColor" content="#da532c">
+  <meta name="msapplication-TileColor" content="#333">
 
   <meta name="theme-color" content="#<link rel=" apple-touch-icon" sizes="180x180" href="img/fav/apple-touch-icon.png">
   <link rel="icon" type="image/png" sizes="32x32" href="img/fav/favicon-32x32.png">
@@ -24,28 +24,26 @@
 
   <link rel="manifest" href="img/fav/site.webmanifest">
   <link rel="mask-icon" href="img/fav/safari-pinned-tab.svg" color="#ec0256">
-  <meta name="msapplication-TileColor" content="#da532c">
+  <meta name="msapplication-TileColor" content="#333">
   <meta name="theme-color" content="#ec0256">
 
   <!-- FACEBOOK -->
   <meta property="og:url" content="https://coders.services/"> <!-- YOUR URL -->
   <meta property="og:type" content="article">
-  <meta property="og:title" content="Coders Services Multi-platform application development"> <!-- EDIT -->
-  <meta property="og:description"
-    content=" We use the latest technologies to make this happen as by magic."> <!-- EDIT -->
+  <meta property="og:title" content="Coders Services - Multi-platform application development"> <!-- EDIT -->
+  <meta property="og:description" content=" We use the latest technologies to make this happen as by magic."> <!-- EDIT -->
   <meta property="og:image" content="iimg/fav/android-chrome-256x256.png"> <!-- EDIT -->
 
   <!-- TWITTER -->
   <meta name="twitter:card" content="summary_large_image">
   <meta name="twitter:site" content="@coders_services"> <!-- EDIT -->
   <meta name="twitter:creator" content="@Adrii_DeVS"> <!-- EDIT -->
-  <meta name="twitter:title" content="Coders Services Multi-platform application development"> <!-- EDIT -->
+  <meta name="twitter:title" content="Coders Services - Multi-platform application development"> <!-- EDIT -->
   <meta name="twitter:description" content=" We use the latest technologies to make this happen as by magic."> <!-- EDIT -->
   <meta name="twitter:image" content="img/fav/android-chrome-256x256.png"> <!-- EDIT -->
 
   <link href="https://fonts.googleapis.com/css?family=Oswald:300,400,500,700&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
-    integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
 
   <link rel="stylesheet" href="css/main.css?<?=time()?>">
 
