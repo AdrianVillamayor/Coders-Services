@@ -66,12 +66,15 @@
           <h1><strong>Multi-platform application development </strong></h1>
 
           <p class="text-intro">We use the latest technologies to make this happen as by magic. </p>
+
+        </div>
+        <div class="wrap aligncenter">
           
-          <p class="text-intro"> <img class="img-fluid" src="img/letstalk_w.png.png"></p>
+          <p class="text-intro"> <img class="img-fluid" style="width: 150px" src="img/letstalk_w.png.png"></p>
 
         </div>
 
-        <div class="flex-justify-center w-90 arrow-box" style="position: absolute; bottom: 100px;">
+        <div class="flex-justify-center w-95 arrow-box" style="position: absolute; bottom: 100px;">
           <a href="javascript:;" class="flex-align-center mt-5">
             <div class="arrow">
               <span></span>
