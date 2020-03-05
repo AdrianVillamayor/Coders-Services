@@ -72,12 +72,13 @@
           <p class="text-intro">We use the latest technologies to make this happen as by magic. </p>
 
           <p>
-            <a href="https://webslides.tv/webslides-latest.zip" class="button zoomIn"
+            <a href="javascript:;" class=""
               title="Download WebSlides for free">
-              <svg class="fa-cloud-download">
-                <use xlink:href="#fa-cloud-download"></use>
-              </svg>
-              WebSlides
+              <div class="arrow">
+                <span></span>
+                <span></span>
+                <span></span>
+              </div>
             </a>
           </p>
         </div>
