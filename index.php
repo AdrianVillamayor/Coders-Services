@@ -74,7 +74,7 @@
 
         </div>
 
-        <div class="flex-justify-center arrow-box" style="position: absolute; bottom: 100px;">
+        <div class="flex-justify-center arrow-box">
           <a href="javascript:;" class="flex-align-center mt-5">
             <div class="arrow">
               <span></span>
