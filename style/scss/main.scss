@@ -73,8 +73,8 @@ a {
     display: block;
     width: 30px;
     height: 30px;
-    border-bottom: 5px solid #06A8FF;
-    border-right: 5px solid #06A8FF;
+    border-bottom: 5px solid $white;
+    border-right: 5px solid $white;
 
     @include transform( rotate(45deg) );
 
