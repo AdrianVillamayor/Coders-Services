@@ -33,3 +33,31 @@ a {
   min-height: 75px;
   float: none !important;
 }
+
+.alone {
+
+  @media screen and (max-width: $medium - 1px) {
+    max-width: 100%;
+
+
+  }
+
+  @media screen and (min-width: $medium) {
+    max-width: 29%;
+
+  }
+}
+
+.alone_2 {
+
+  @media screen and (max-width: $medium - 1px) {
+    max-width: 100%;
+
+
+  }
+
+  @media screen and (min-width: $medium) {
+    max-width: 46%;
+
+  }
+}

@@ -57,9 +57,9 @@
 
   <main role="main">
 
-    <div class="fixed-top p-4"> <img class="img-fluid lozad w-5" src="img/logo.png"></div>
+    <div class="fixed-top flex-justify-flex-end p-3" style="opacity: .9;"> <img class="img-fluid lozad w-5" src="img/logo.png"></div>
 
-    <article id="webslides" class="vertical">
+    <article id="webslides" class="vertical container">
 
       <section>
         <div class="wrap aligncenter">
@@ -105,7 +105,7 @@
                 </figure>
               </a>
             </li>
-            <li>
+            <li class="alone_2">
               <a href="demos/keynote.html" title="Apple Keynote">
                 <figure>
                   <img alt="Native & Hybrid ANDROID & iOS apps" style="padding: 65px;" class="img-fluid lozad"
@@ -243,11 +243,11 @@
               <div>
                 <h2>
                   <span class="img-logo">
-                    <img alt="PHP" class="img-fluid lozad" src="img/android_logo.png">
+                    <img alt="android" class="img-fluid lozad" src="img/android_logo.png">
                   </span>
-                  Java
+                  Android
                 </h2>
-                Kotlin
+                Java - Kotlin
               </div>
             </li>
 
@@ -256,7 +256,7 @@
                 <h2>
                   <span class="img-logo">
                     <div class="text-right">
-                      <img alt="golang" class="img-fluid lozad w-40" src="img/swift_logo.png">
+                      <img alt="swift" class="img-fluid lozad" src="img/swift_logo.png">
                     </div>
                   </span>
                   Swift
@@ -268,18 +268,18 @@
               <div>
                 <h2>
                   <span class="img-logo">
-                    <img alt="PYTHON" class="img-fluid lozad" src="img/flutter_logo.png">
+                    <img alt="Flutter" class="img-fluid lozad" src="img/flutter_logo.png">
                   </span>
                   Flutter
                 </h2>
               </div>
             </li>
 
-            <li>
+            <li class="alone">
               <div>
                 <h2>
                   <span class="img-logo">
-                    <img alt="html" class="img-fluid lozad" src="img/ionic_logo.png">
+                    <img alt="Ionic" class="img-fluid lozad" src="img/ionic_logo.png">
                   </span>
                   Ionic
                 </h2>
@@ -346,7 +346,7 @@
   integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
 
 <script src="js/plugins/webslides.min.js?<?=time()?>"></script>
-<script src="js/plugins/hammer.min.js?<?=time()?>"></script>
+<script src="js/plugins/swiped-events.js?<?=time()?>"></script>
 <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/lozad/dist/lozad.min.js"></script>
 
 <script src="js//main.js?<?=time()?>"></script>
