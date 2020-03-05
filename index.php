@@ -61,12 +61,12 @@ include_once("Core/multilang.php");
 
   <main role="main">
 
-    <div class="fixed-top p-3" style="opacity: .9;">
+    <div class="fixed-top flex-justify-space-between p-3 px-5 row">
       <div>
-        <img class="img-fluid lozad" style="width:50px;" src="img/logo.png">
+        <img class="img-fluid lozad" style="opacity: .9;width:50px;" src="img/logo.png">
       </div>
 
-      <div>          
+      <div class="flex-justify-flex-end ">          
         <div id="dropdown">
           <button>Langauges</button>
           <button>English</button>
