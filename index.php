@@ -73,10 +73,12 @@ include_once("Core/multilang.php");
             if($lang == "es"){
               echo  '
                 <a data-id="es">'._("Spanish").'</a>
+                <a data-id="es">'._("Spanish").'</a>
                 <a data-id="en">'._("English").'</a>
               ';
             }else{
               echo  '
+                <a data-id="en">English</a>
                 <a data-id="en">English</a>
                 <a data-id="es">'._("Spanish").'</a>
               ';
