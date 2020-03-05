@@ -28,22 +28,20 @@
   <meta name="theme-color" content="#ec0256">
 
   <!-- FACEBOOK -->
-  <meta property="og:url" content="http://your-url.com/"> <!-- YOUR URL -->
+  <meta property="og:url" content="https://coders.services/"> <!-- YOUR URL -->
   <meta property="og:type" content="article">
-  <meta property="og:title" content="WebSlides — Making HTML Presentations Easy"> <!-- EDIT -->
+  <meta property="og:title" content="Coders Services Multi-platform application development"> <!-- EDIT -->
   <meta property="og:description"
-    content="WebSlides is about telling stories beautifully. Just the essential features. Good karma."> <!-- EDIT -->
-  <meta property="og:updated_time" content="2017-01-04T17:20:50"> <!-- EDIT -->
-  <meta property="og:image" content="img/share-webslides.jpg"> <!-- EDIT -->
+    content=" We use the latest technologies to make this happen as by magic."> <!-- EDIT -->
+  <meta property="og:image" content="iimg/fav/android-chrome-256x256.png"> <!-- EDIT -->
 
   <!-- TWITTER -->
   <meta name="twitter:card" content="summary_large_image">
-  <meta name="twitter:site" content="@webslides"> <!-- EDIT -->
-  <meta name="twitter:creator" content="@jlantunez"> <!-- EDIT -->
-  <meta name="twitter:title" content="WebSlides — Making HTML Presentations Easy"> <!-- EDIT -->
-  <meta name="twitter:description"
-    content="WebSlides is about good karma. Just essential features. 120+ free slides ready to use."> <!-- EDIT -->
-  <meta name="twitter:image" content="img/share-webslides.jpg"> <!-- EDIT -->
+  <meta name="twitter:site" content="@coders_services"> <!-- EDIT -->
+  <meta name="twitter:creator" content="@Adrii_DeVS"> <!-- EDIT -->
+  <meta name="twitter:title" content="Coders Services Multi-platform application development"> <!-- EDIT -->
+  <meta name="twitter:description" content=" We use the latest technologies to make this happen as by magic."> <!-- EDIT -->
+  <meta name="twitter:image" content="img/fav/android-chrome-256x256.png"> <!-- EDIT -->
 
   <link href="https://fonts.googleapis.com/css?family=Oswald:300,400,500,700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
@@ -144,7 +142,7 @@
             </div>
 
             <div class="column">
-              <figure><img class="aligncenter" src="img/programming.svg" alt="WebSlides Files"></figure>
+              <figure><img class="aligncenter" src="img/programming.svg" alt="Coders Services Files"></figure>
             </div>
 
             <div class="column">
