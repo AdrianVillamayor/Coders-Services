@@ -361,7 +361,7 @@ require_once("Core/multilang.php");
           <p class="text-intro my-5"><?=_("Whether it is enhancing an existing application or architecting an enterprise application, our developers are up for your challenge")?></p>
           <p>
             <a href="mailto:hola@coders.services" title="hola@coders.services ">
-            <img class="img-fluid" style="width: 150px" src="img/letstalk_b.png">
+            <img class="img-fluid" style="width: 150px" src="img/letstalk_w.png">
             </a>
           </p>
         </div>
