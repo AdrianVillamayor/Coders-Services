@@ -61,7 +61,7 @@ include_once("Core/multilang.php");
 
   <main role="main">
 
-    <div class="fixed-top flex-justify-flex-end p-3" style="opacity: .9;">
+    <div class="fixed-top p-3" style="opacity: .9;">
       <div>
         <img class="img-fluid lozad" style="width:50px;" src="img/logo.png">
       </div>
