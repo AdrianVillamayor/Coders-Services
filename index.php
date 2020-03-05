@@ -358,8 +358,8 @@
           <p class="text-intro my-5">Whether it is enhancing an existing application or architecting an enterprise
             application, our developers are up for your challenge</p>
           <p>
-            <a href="mailto:hola@coders.services " class="button" title="hola@coders.services ">
-            <img class="img-fluid" style="width: 150px" src="img/letstalk_w.png.png">
+            <a href="mailto:hola@coders.services" title="hola@coders.services ">
+            <img class="img-fluid" style="width: 150px" src="img/letstalk_b.png.png">
             </a>
           </p>
         </div>
