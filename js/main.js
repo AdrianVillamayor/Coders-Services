@@ -20,25 +20,25 @@ var body = $("body")[0];
 
 // listen to events...
 
-// document.addEventListener('swiped-up', function (e) {
+document.addEventListener('swiped-up', function (e) {
 
-//     let slide = $("#webslides");
-//     let max = Math.trunc(slide[0].scrollHeight);
-//     let offset = Math.trunc(slide[0].offsetHeight);
-//     let position = Math.round(slide.scrollTop());
+    let slide = $("#webslides");
+    let max = Math.trunc(slide[0].scrollHeight);
+    let offset = Math.trunc(slide[0].offsetHeight);
+    let position = Math.round(slide.scrollTop());
 
-//     if ((max - offset == position)) {
-//         console.warn("next");
-//         window.ws.goNext();
-//     }
-// });
+    if ((max - offset == position)) {
+        console.warn("next");
+        window.ws.goNext();
+    }
+});
 
-// document.addEventListener('swiped-down', function (e) {
-//     let slide = $("#webslides");
-//     let position = Math.round(slide.scrollTop());
+document.addEventListener('swiped-down', function (e) {
+    let slide = $("#webslides");
+    let position = Math.round(slide.scrollTop());
 
-//     if (position == 0) {
-//         console.warn("back");
-//         window.ws.goPrev();
-//     }
-// });
+    if (position == 0) {
+        console.warn("back");
+        window.ws.goPrev();
+    }
+});
