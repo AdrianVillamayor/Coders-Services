@@ -35,6 +35,20 @@ a {
   float: none !important;
 }
 
+.arrow-box {
+
+  @media screen and (max-width: $medium - 1px) {
+    width: 90%;
+
+
+  }
+
+  @media screen and (min-width: $medium) {
+    width: 96%;
+
+  }
+}
+
 .alone {
 
   @media screen and (max-width: $medium - 1px) {
