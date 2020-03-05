@@ -4003,7 +4003,7 @@
   }
   
   a, .bg-white a, .bg-light a, .bg-gradient-white a {
-    color: #44d;
+    color: $blue;
   }
   
   a:hover {
@@ -4062,7 +4062,7 @@
   /*3 Corp Colors*/
   
   .bg-primary {
-    background-color: #44d;
+    background-color: $blue;
   }
   
   .bg-secondary {
@@ -4761,41 +4761,41 @@
   }
   
   button, input, select, textarea, button[type='submit'], input[type='submit'] {
-    border: 1px solid #44d;
+    border: 1px solid $blue;
   }
   
   .button {
-    border: 1px solid #44d;
+    border: 1px solid $blue;
   
     &:hover {
-      border: 1px solid #44d;
+      border: 1px solid $blue;
     }
   }
   
   button[type='submit']:hover, input[type='submit']:hover {
-    border: 1px solid #44d;
+    border: 1px solid $blue;
   }
   
   button[type='submit'], input[type='submit'] {
-    background-color: #44d;
+    background-color: $blue;
     color: #fff;
     text-shadow: 0 1px 0 #123;
   }
   
   .button {
-    background-color: #44d;
+    background-color: $blue;
     color: #fff;
     text-shadow: 0 1px 0 #123;
   
     &:hover {
-      background-color: #44d;
+      background-color: $blue;
       color: #fff;
       text-shadow: 0 1px 0 #123;
     }
   }
   
   button[type='submit']:hover, input[type='submit']:hover {
-    background-color: #44d;
+    background-color: $blue;
     color: #fff;
     text-shadow: 0 1px 0 #123;
   }
@@ -4847,7 +4847,7 @@
   }
   
   .bg-white a.button.ghost, .bg-gradient-white a.button.ghost {
-    border: 1px solid #44d;
+    border: 1px solid $blue;
     color: #333;
   }
   
@@ -4859,7 +4859,7 @@
   
   fieldset {
     background-color: rgba(0, 20, 80, 0.2);
-    border: 1px solid #44d;
+    border: 1px solid $blue;
   }
   
   legend {
