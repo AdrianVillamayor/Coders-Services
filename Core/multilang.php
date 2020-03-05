@@ -24,9 +24,9 @@ if (in_array("en", $explode_url)) {
 if (in_array("es", $explode_url)) {
     $lang = 'es';
 }
-if (in_array("ca", $explode_url)) {
-    $lang = 'ca';
-}
+// if (in_array("ca", $explode_url)) {
+//     $lang = 'ca';
+// }
 
 define('LOCALE_DIR',  'locale');
 define('DEFAULT_LOCALE', 'en_US');
@@ -34,7 +34,7 @@ define('LOCALE_DOMAIN', 'coders.services');
 
 if ($lang == 'es') $locale = 'es_ES';
 if ($lang == 'ca') $locale = 'ca_ES';
-if ($lang == 'en') $locale = 'en_US';
+// if ($lang == 'en') $locale = 'en_US';
 
 $_SESSION['locale'] = $locale;
 $_SESSION['lang']   = $lang;
