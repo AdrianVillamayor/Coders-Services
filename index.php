@@ -1,9 +1,5 @@
 <?php 
-ini_set('display_errors', 1);
-ini_set('display_startup_errors', 1);
-error_reporting(E_ALL);
-
-require_once("Core/redirecto.php");
+require_once("Core/multilang.php");
 
 ?>
 <!DOCTYPE html>
@@ -38,16 +34,16 @@ require_once("Core/redirecto.php");
   <!-- FACEBOOK -->
   <meta property="og:url" content="https://coders.services/"> <!-- YOUR URL -->
   <meta property="og:type" content="article">
-  <meta property="og:title" content="Coders Services - Multi-platform application development"> <!-- EDIT -->
-  <meta property="og:description" content=" We use the latest technologies to make this happen as by magic."> <!-- EDIT -->
+  <meta property="og:title" content="Coders Services - <?=_("Multi-platform application development")?>"> <!-- EDIT -->
+  <meta property="og:description" content=" <?=_("We use the latest technologies to make this happen as by magic")?>"> <!-- EDIT -->
   <meta property="og:image" content="img/fav/android-chrome-256x256.png"> <!-- EDIT -->
 
   <!-- TWITTER -->
   <meta name="twitter:card" content="summary_large_image">
   <meta name="twitter:site" content="@coders_services"> <!-- EDIT -->
   <meta name="twitter:creator" content="@Adrii_DeVS"> <!-- EDIT -->
-  <meta name="twitter:title" content="Coders Services - Multi-platform application development"> <!-- EDIT -->
-  <meta name="twitter:description" content=" We use the latest technologies to make this happen as by magic."> <!-- EDIT -->
+  <meta name="twitter:title" content="Coders Services - <?=_("Multi-platform application development")?>"> <!-- EDIT -->
+  <meta name="twitter:description" content="<?=_("We use the latest technologies to make this happen as by magic")?>"> <!-- EDIT -->
   <meta name="twitter:image" content="img/fav/android-chrome-256x256.png"> <!-- EDIT -->
 
   <link href="https://fonts.googleapis.com/css?family=Oswald:300,400,500,700&display=swap" rel="stylesheet">
@@ -71,9 +67,9 @@ require_once("Core/redirecto.php");
 
       <section>
         <div class="wrap aligncenter">
-          <h1><strong>Multi-platform application development </strong></h1>
+          <h1><strong><?=_("Multi-platform application development")?> </strong></h1>
 
-          <p class="text-intro">We use the latest technologies to make this happen as by magic. </p>
+          <p class="text-intro"><?=_("We use the latest technologies to make this happen as by magic")?>.</p>
 
         </div>
         <div class="wrap aligncenter">
@@ -98,8 +94,8 @@ require_once("Core/redirecto.php");
 
       <section>
         <div class="wrap">
-          <h2 class="my-3"><strong> Why Coders Services ? </strong></h2>
-          <p class="text-intro my-4">We are able to create complete environments, joining mobile and web technologies and giving a complete experience to the users</p>
+          <h2 class="my-3"><strong> <?=_("Why Coders Services ?")?> </strong></h2>
+          <p class="text-intro my-4"><?=_("We are able to create complete environments, joining mobile and web technologies and giving a complete experience to the users")?></p>
 
           <ul class="flexblock gallery container">
             <li>
@@ -107,7 +103,7 @@ require_once("Core/redirecto.php");
                 <figure>
                   <img alt="Responsive Design" class="img-fluid lozad" src="img/multi-platf.svg">
                   <figcaption>
-                    <h2>Multi-platform application development </h2>
+                    <h2><?=_("Multi-platform application development")?> </h2>
                   </figcaption>
                 </figure>
               </a>
@@ -117,7 +113,7 @@ require_once("Core/redirecto.php");
                 <figure>
                   <img alt="Responsive Design" class="img-fluid lozad" src="img/responsive-design.svg">
                   <figcaption>
-                    <h2> Responsive Design to work on all systems </h2>
+                    <h2> <?=_("Responsive Design to work on all systems")?> </h2>
                   </figcaption>
                 </figure>
               </a>
@@ -128,7 +124,7 @@ require_once("Core/redirecto.php");
                   <img alt="Native & Hybrid ANDROID & iOS apps" style="padding: 65px;" class="img-fluid lozad"
                     src="img/app.svg">
                   <figcaption>
-                    <h2>Native & Hybrid ANDROID & iOS apps </h2>
+                    <h2><?=_("Native & Hybrid ANDROID & iOS apps ")?></h2>
                   </figcaption>
                 </figure>
               </a>
@@ -140,16 +136,15 @@ require_once("Core/redirecto.php");
       <section id="section-6" class="slide current" style="">
         <div class="wrap">
 
-          <h2 class="mt-3 mb-5">CUSTOM PROGRAMMING</h2>
+          <h2 class="mt-3 mb-5"><?=_("CUSTOM PROGRAMMING")?></h2>
 
           <div class="grid vertical-align">
           
             <div class="column">
               <h4>
-                <strong>BACK-END</strong>
+                <strong><?=_("BACK-END")?></strong>
               </h4>
-              <p>The back-end of a website is comprised of complicated code that’s never seen or interacted with, but drives the whole show</p>
-              <p>We are able to create complete environments, joining mobile and web technologies and giving a complete experience to the users</p>
+              <p><?=_("The back-end of a website is comprised of complicated code that’s never seen or interacted with, but drives the whole show</p> <p>We are able to create complete environments, joining mobile and web technologies and giving a complete experience to the users")?></p>
             </div>
 
             <div class="column">
@@ -158,9 +153,9 @@ require_once("Core/redirecto.php");
 
             <div class="column">
               <h4>
-                <strong>FRONT-END</strong>
+                <strong><?=_("FRONT-END")?></strong>
               </h4>
-              <p>Front-end web development refers to any functional elements that users see and interact with, such as image carousels or slide-out menus. Our front end functional pieces are custom-fit, built-from-scratch solutions that aren’t just exceptionally easy to maintain and expand on; they’re also reliable and stable</p>
+              <p><?=_("Front-end web development refers to any functional elements that users see and interact with, such as image carousels or slide-out menus. Our front end functional pieces are custom-fit, built-from-scratch solutions that aren’t just exceptionally easy to maintain and expand on; they’re also reliable and stable")?></p>
             </div>
 
           </div>
@@ -170,7 +165,7 @@ require_once("Core/redirecto.php");
 
       <section class="slide current" style="">
         <div class="wrap">
-          <h2 class="my-3">WEB TECHNOLOGY</h2>
+          <h2 class="my-3"><?=_("WEB TECHNOLOGY")?></h2>
 
           <ul class="flexblock features">
 
@@ -299,7 +294,7 @@ require_once("Core/redirecto.php");
 
       <section class="slide current" style="">
         <div class="wrap">
-          <h2 class="my-3">MOBILE TECHNOLOGY</h2>
+          <h2 class="my-3"><?=_("MOBILE TECHNOLOGY")?></h2>
 
           <ul class="flexblock features">
 
@@ -362,9 +357,8 @@ require_once("Core/redirecto.php");
 
       <section class="aligncenter">
         <div class="wrap">
-          <h2 class="my-3"><strong>Ready to start a project ?</strong> </h2>
-          <p class="text-intro my-5">Whether it is enhancing an existing application or architecting an enterprise
-            application, our developers are up for your challenge</p>
+          <h2 class="my-3"><strong><?=_("Ready to start a project ?")?></strong> </h2>
+          <p class="text-intro my-5"><?=_("Whether it is enhancing an existing application or architecting an enterprise application, our developers are up for your challenge")?></p>
           <p>
             <a href="mailto:hola@coders.services" title="hola@coders.services ">
             <img class="img-fluid" style="width: 150px" src="img/letstalk_b.png">
