@@ -1,5 +1,5 @@
 <?php
-require_once('../Libraries/gettext.inc');
+require_once('Libraries/gettext.inc');
 
 $url = $_SERVER["REQUEST_URI"];
 
