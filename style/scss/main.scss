@@ -16,7 +16,7 @@ body {
 a {
   outline: none !important;
   text-decoration: none !important;
-
+  box-shadow: none !important;
   color: $blue;
 
   @include transition(all .3s linear);
