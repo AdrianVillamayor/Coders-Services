@@ -67,11 +67,15 @@ include_once("Core/multilang.php");
       </div>
 
       <div>          
-        <select class="form-control" data-width="fit">
-          <option value='En'>En</option>
-          <option value='Es'>Es</option>
-          <option value='Ca'>Ca</option>
-        </select>
+        <div id="dropdown">
+          <button>Langauges</button>
+          <button>English</button>
+          <button>Dutch</button>
+          <button>French</button>
+          <button>Japanese</button>
+          <button>Chinese</button>
+          <button>Polish</button>
+        </div>
       </div>
     </div>
 
