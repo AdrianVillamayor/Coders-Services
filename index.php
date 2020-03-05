@@ -91,7 +91,7 @@
         <div class="wrap">
 
           <h2 class="my-3">CUSTOM PROGRAMMING</h2>
-          
+
           <div class="grid vertical-align">
             <div class="column">
               <h4>
@@ -100,14 +100,9 @@
                 </svg>
                 <strong>FRONT-END</strong>
               </h4>
-              <p>If you need help, here's just some tutorials. Just a basic knowledge of HTML is required:</p>
-              <ul class="description">
-                <li><a href="/demos/components.html" title="WebSlides Components">Components</a> · <a
-                    href="/demos/classes.html" title="WebSlides Classes">Classes</a>.</li>
-                <li><a href="https://codepen.io/webslides" title="WebSlides on Codepen">WebSlides on Codepen</a>.</li>
-                <li><a href="/demos/media.html" title="WebSlides Media">WebSlides Media: images, videos...</a></li>
-              </ul>
+              <p>Front-end web development refers to any functional elements that users see and interact with, such as image carousels or slide-out menus. Our front end functional pieces are custom-fit, built-from-scratch solutions that aren’t just exceptionally easy to maintain and expand on; they’re also reliable and stable</p>
             </div>
+            
             <div class="column">
               <figure><img class="aligncenter" src="/static/images/setup.png" alt="WebSlides Files"></figure>
             </div>
@@ -118,12 +113,9 @@
                 </svg>
                 <strong>BACK-END</strong>
               </h4>
-              <p>The best way to <strong>inspire with your content</strong> is to connect on a personal level:</p>
-              <ul class="description">
-                <li>Background images: <a href="http://unsplash.com">Unsplash</a>.</li>
-                <li>CSS animations: <a href="https://daneden.github.io/animate.css/">Animate.css</a>.</li>
-                <li>Longforms: <a href="http://michalsnik.github.io/aos/"> Animate on scroll</a>.</li>
-              </ul>
+              <p>The back-end of a website is comprised of complicated code that’s never seen or interacted with, but drives the whole show</p>
+              <p>We are able to create complete environments, joining mobile and web technologies and giving a complete experience to the users</p>
+            
             </div>
           </div>
           <!--end .grid -->
