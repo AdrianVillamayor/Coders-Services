@@ -2,7 +2,8 @@
 
 body {
   @include font($font-Oswald, 16px, 400, 1.5, $spacing);
-  background-color: $pink;
+  // background-color: $pink;
+  background-image: radial-gradient(circle, #e91c63, #eb2f6d, #ec3d77, #ed4a81, #ee558a);
   color: $white;
 
   &::after {
