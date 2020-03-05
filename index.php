@@ -71,7 +71,9 @@
 
           <p class="text-intro">We use the latest technologies to make this happen as by magic. </p>
 
-
+        </div>
+        
+        <div class="wrap aligncenter">
           <a href="javascript:;" class="flex-align-center mt-5">
 
             <div class="arrow">
