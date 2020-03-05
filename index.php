@@ -69,7 +69,7 @@
 
         </div>
         <div class="wrap aligncenter">
-          
+      
           <p class="text-intro"> <img class="img-fluid" style="width: 150px" src="img/letstalk_w.png.png"></p>
 
         </div>
