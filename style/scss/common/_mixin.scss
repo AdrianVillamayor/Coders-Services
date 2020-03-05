@@ -172,6 +172,7 @@ div.none {
 
 %flex {
     display: flex;
+    display: -webkit-flex;
 }
 
 @each $name in '45''90''180' {
