@@ -87,46 +87,44 @@
 
       </section>
 
-      <section>
-        <div class="wrap">
-          <h2 class="my-3"><strong> Why Coders Services ? </strong></h2>
-          <p class="text-intro my-4">We are able to create complete environments, joining mobile and web technologies and giving a complete experience to the users</p>
-
-          <ul class="flexblock gallery container">
-            <li>
-              <a href="demos/landings.html" title="Landings">
-                <figure>
-                  <img alt="Responsive Design" class="img-fluid lozad" src="img/multi-platf.svg">
-                  <figcaption>
-                    <h2>Multi-platform application development </h2>
-                  </figcaption>
-                </figure>
-              </a>
-            </li>
-            <li>
-              <a href="demos/portfolios.html" title="Portfolios">
-                <figure>
-                  <img alt="Responsive Design" class="img-fluid lozad" src="img/responsive-design.svg">
-                  <figcaption>
-                    <h2> Responsive Design to work on all systems </h2>
-                  </figcaption>
-                </figure>
-              </a>
-            </li>
-            <li class="alone_2">
-              <a href="demos/keynote.html" title="Apple Keynote">
-                <figure>
-                  <img alt="Native & Hybrid ANDROID & iOS apps" style="padding: 65px;" class="img-fluid lozad"
-                    src="img/app.svg">
-                  <figcaption>
-                    <h2>Native & Hybrid ANDROID & iOS apps </h2>
-                  </figcaption>
-                </figure>
-              </a>
-            </li>
-          </ul>
-        </div>
-      </section>
+      <section id="section-6" class="slide current" style="">
+          <div class="wrap">
+            <div class="grid vertical-align">
+              <div class="column">
+                <h4>
+                  <svg class="fa-life-ring">
+                    
+                  </svg>
+                  <strong>Guides</strong>
+                </h4>
+                <p>If you need help, here's just some tutorials. Just a basic knowledge of HTML is required:</p>
+                <ul class="description">
+                  <li><a href="/demos/components.html" title="WebSlides Components">Components</a> · <a href="/demos/classes.html" title="WebSlides Classes">Classes</a>.</li>
+                  <li><a href="https://codepen.io/webslides" title="WebSlides on Codepen">WebSlides on Codepen</a>.</li>
+                  <li><a href="/demos/media.html" title="WebSlides Media">WebSlides Media: images, videos...</a></li>
+                </ul>
+              </div>
+              <div class="column">
+                <figure><img class="aligncenter" src="/static/images/setup.png" alt="WebSlides Files"></figure>
+              </div>
+              <div class="column">
+                <h4>
+                  <svg class="fa-cubes">
+                    
+                  </svg>
+                  <strong>Built to expand</strong>
+                </h4>
+                <p>The best way to <strong>inspire with your content</strong> is to connect on a personal level:</p>
+                <ul class="description">
+                  <li>Background images: <a href="http://unsplash.com">Unsplash</a>.</li>
+                  <li>CSS animations: <a href="https://daneden.github.io/animate.css/">Animate.css</a>.</li>
+                  <li>Longforms: <a href="http://michalsnik.github.io/aos/"> Animate on scroll</a>.</li>
+                </ul>
+              </div>
+            </div>
+            <!--end .grid -->
+          </div>
+        </section>
 
       <section class="slide current" style="">
           <!--.wrap = container (width: 90%) -->
