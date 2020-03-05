@@ -84,7 +84,7 @@
         <div class="wrap">
           <h2><strong> Why Coders Services ? </strong></h2>
 
-          <ul class="flexblock gallery m">
+          <ul class="flexblock gallery container">
             <li>
               <a href="demos/landings.html" title="Landings">
                 <figure>
