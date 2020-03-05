@@ -57,7 +57,7 @@
 
   <main role="main">
 
-    <div class="fixed-top flex-justify-flex-end p-3" style="opacity: .9;"> <img class="img-fluid lozad w-5" src="img/logo.png"></div>
+    <div class="fixed-top flex-justify-flex-end p-3" style="opacity: .9;"> <img class="img-fluid lozad" style="width:50px;" src="img/logo.png"></div>
 
     <article id="webslides" class="vertical container">
 
