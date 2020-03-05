@@ -71,16 +71,18 @@
 
           <p class="text-intro">We use the latest technologies to make this happen as by magic. </p>
 
-          <p>
+
             <a href="javascript:;">
+              
               <div class="arrow">
                 <span></span>
                 <span></span>
                 <span></span>
               </div>
+
             </a>
-          </p>
-          
+
+
         </div>
       </section>
 
