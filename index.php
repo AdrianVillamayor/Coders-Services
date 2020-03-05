@@ -65,6 +65,28 @@ include_once("Core/multilang.php");
       <div>
         <img class="img-fluid lozad" style="width:50px;" src="img/logo.png">
       </div>
+
+      <div>          
+        <div class="switch-lang"> 
+          <div class="current-lang">
+            <p class="lang-text">English</p>
+          </div>
+          <div class="lang-dropdown">
+            <div class="selecting-lang">
+              <p class="lang-text">Español</p>
+            </div>
+            <div class="selecting-lang">
+              <p class="lang-text">Français</p>
+            </div>
+            <div class="selecting-lang">
+              <p class="lang-text">Italiano </p>
+            </div>
+            <div class="selecting-lang">
+              <p class="lang-text">Deutsch</p>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
 
     <article id="webslides" class="vertical container">
