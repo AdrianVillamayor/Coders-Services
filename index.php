@@ -359,7 +359,7 @@
             application, our developers are up for your challenge</p>
           <p>
             <a href="mailto:hola@coders.services " class="button" title="hola@coders.services ">
-              {LET'S TALK}
+            <img class="img-fluid" style="width: 150px" src="img/letstalk_w.png.png">
             </a>
           </p>
         </div>
