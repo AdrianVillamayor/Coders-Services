@@ -16,8 +16,9 @@ if (isset($lang) && $lang == 'en') {
   $web_lang = "es_ES.utf8";
   $lang = "es";
 }
+echo $web_lang;
 setlocale(LC_ALL, $web_lang);
-$domain = 'metalast';
+$domain = 'coders.services';
 $locale_directory = '/var/www/html/locale/';
 bindtextdomain($domain, $locale_directory);
 textdomain($domain);
