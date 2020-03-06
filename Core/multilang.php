@@ -23,7 +23,11 @@ if (in_array("es", $explode_url)) {
     $lang = 'es';
 }
 
-setlocale(LC_ALL, $lang);
+if ($lang == 'es') $locale = 'es_ES';
+// if ($lang == 'ca') $locale = 'ca_ES';
+if ($lang == 'en') $locale = 'en_US';
+
+setlocale(LC_ALL, $locale);
 
 $domain = 'coders.services';
 $locale_directory = '/var/www/html/locale/';
