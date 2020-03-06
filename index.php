@@ -1,4 +1,5 @@
 <?php
+
 $explode_url = explode('/', $url);
 
 if (in_array("en", $explode_url)) {
@@ -15,13 +16,12 @@ if (isset($lang) && $lang == 'en') {
   $lang = "es";
 }
 
-echo $web_lang;
-
 setlocale(LC_ALL, $web_lang);
 $domain = 'coders.services';
 $locale_directory = '/var/www/html/locale/';
 bindtextdomain($domain, $locale_directory);
 textdomain($domain);
+
 ?>
 
 <!DOCTYPE html>
