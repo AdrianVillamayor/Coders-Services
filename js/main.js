@@ -19,10 +19,6 @@ $(".arrow").on("click", function(e){
 
 var body = $("body")[0];
 
-// create a simple instance
-// by default, it only adds horizontal recognizers
-
-// listen to events...
 
 document.addEventListener('swiped-up', function (e) {
 
@@ -32,7 +28,6 @@ document.addEventListener('swiped-up', function (e) {
     let position = Math.round(slide.scrollTop());
 
     if ((max - offset == position)) {
-        console.warn("next");
         window.ws.goNext();
     }
 });
@@ -42,7 +37,6 @@ document.addEventListener('swiped-down', function (e) {
     let position = Math.round(slide.scrollTop());
 
     if (position == 0) {
-        console.warn("back");
         window.ws.goPrev();
     }
 });

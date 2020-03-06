@@ -94,12 +94,12 @@ textdomain($domain);
           <?php
             if($lang == "es"){
               echo  '
-                <button class="lang" data-lang="es">'._("Spanish").'</button>
+                <button data-lang="es">'._("Spanish").'</button>
                 <button class="lang" data-lang="en">'._("English").'</button>
               ';
             }else{
               echo  '
-                <button class="lang" data-lang="en">'._("English").'</button>
+                <button data-lang="en">'._("English").'</button>
                 <button class="lang" data-lang="es">'._("Spanish").'</button>
               ';
             }
