@@ -59,7 +59,7 @@ $( "#dropdown")
 $(".lang").on("click", function(){
     let langu = $(this).attr("data-lang");
 
-    if(( "#dropdown").hasClass("open")){
+    if( $("#dropdown").hasClass("open") ){
         $(location).attr('href', '/' + langu)
     }
 
