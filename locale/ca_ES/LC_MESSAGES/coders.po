@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-03-05 13:48+0100\n"
+"POT-Creation-Date: 2020-03-06 10:03+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -17,53 +17,57 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-#: ..//index.php:41 ..//index.php:49 ..//index.php:74 ..//index.php:110
+#: ..//index.php:63 ..//index.php:71 ..//index.php:117 ..//index.php:153
 msgid "Multi-platform application development"
 msgstr ""
 
-#: ..//index.php:42 ..//index.php:50 ..//index.php:76
+#: ..//index.php:64 ..//index.php:72 ..//index.php:119
 msgid "We use the latest technologies to make this happen as by magic"
 msgstr ""
 
-#: ..//index.php:101
+#: ..//index.php:97 ..//index.php:103
+msgid "Spanish"
+msgstr ""
+
+#: ..//index.php:144
 msgid "Why Coders Services ?"
 msgstr ""
 
-#: ..//index.php:102
+#: ..//index.php:145
 msgid ""
 "We are able to create complete environments, joining mobile and web "
 "technologies and giving a complete experience to the users"
 msgstr ""
 
-#: ..//index.php:120
+#: ..//index.php:163
 msgid "Responsive Design to work on all systems"
 msgstr ""
 
-#: ..//index.php:131
+#: ..//index.php:174
 msgid "Native & Hybrid ANDROID & iOS apps "
 msgstr ""
 
-#: ..//index.php:143
+#: ..//index.php:186 ..//test.php:25
 msgid "CUSTOM PROGRAMMING"
 msgstr ""
 
-#: ..//index.php:149
+#: ..//index.php:192
 msgid "BACK-END"
 msgstr ""
 
-#: ..//index.php:151
+#: ..//index.php:194
 msgid ""
 "The back-end of a website is comprised of complicated code that’s never seen "
-"or interacted with, but drives the whole show</p>\n"
-"              <p>We are able to create complete environments, joining mobile "
-"and web technologies and giving a complete experience to the users"
+"or interacted with, but drives the whole show</p> <p>We are able to create "
+"complete environments, joining mobile and web technologies and giving a "
+"complete experience to the users"
 msgstr ""
 
-#: ..//index.php:161
+#: ..//index.php:203
 msgid "FRONT-END"
 msgstr ""
 
-#: ..//index.php:163
+#: ..//index.php:205
 msgid ""
 "Front-end web development refers to any functional elements that users see "
 "and interact with, such as image carousels or slide-out menus. Our front end "
@@ -72,21 +76,20 @@ msgid ""
 "stable"
 msgstr ""
 
-#: ..//index.php:173
+#: ..//index.php:215
 msgid "WEB TECHNOLOGY"
 msgstr ""
 
-#: ..//index.php:302
+#: ..//index.php:344
 msgid "MOBILE TECHNOLOGY"
 msgstr ""
 
-#: ..//index.php:365
+#: ..//index.php:407
 msgid "Ready to start a project ?"
 msgstr ""
 
-#: ..//index.php:366
+#: ..//index.php:408
 msgid ""
-"hether it is enhancing an existing application or architecting an "
-"enterprise\n"
-"            application, our developers are up for your challenge"
+"Whether it is enhancing an existing application or architecting an "
+"enterprise application, our developers are up for your challenge"
 msgstr ""

@@ -20,7 +20,7 @@ if (isset($lang) && $lang == 'en') {
 
 setlocale(LC_ALL, $web_lang);
 
-$domain = 'coders.services';
+$domain = 'coders';
 $locale_directory = '/var/www/html/locale/';
 
 bindtextdomain($domain, $locale_directory);
