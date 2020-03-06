@@ -1,8 +1,14 @@
 <?php
 
-ini_set('display_errors', 1);
-ini_set('display_startup_errors', 1);
-error_reporting(E_ALL);
+
+$explode_url = explode('/', $url);
+
+if (in_array("en", $explode_url)) {
+    $lang = 'en';
+}
+if (in_array("es", $explode_url)) {
+    $lang = 'es';
+}
 
 if (isset($lang) && $lang == 'en') {
   $web_lang = "en_EN.utf8";
@@ -16,6 +22,7 @@ $locale_directory = '/var/www/html/locale/';
 bindtextdomain($domain, $locale_directory);
 textdomain($domain);
 ?>
+
 <!DOCTYPE html>
 
 <html lang="<?=$web_lang;?>">
