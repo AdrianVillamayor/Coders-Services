@@ -28,7 +28,7 @@ if (in_array("es", $explode_url)) {
 //     $lang = 'ca';
 // }
 
-define('LOCALE_DIR',  'locale');
+define('LOCALE_DIR',  '/var/www/html/locale/');
 define('DEFAULT_LOCALE', 'en_US');
 define('LOCALE_DOMAIN', 'coders.services');
 
