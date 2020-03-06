@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-03-05 13:55+0100\n"
-"PO-Revision-Date: 2020-03-05 13:56+0100\n"
+"POT-Creation-Date: 2020-03-06 10:03+0100\n"
+"PO-Revision-Date: 2020-03-06 10:03+0100\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "Language: es_ES\n"
@@ -17,21 +17,25 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: Poedit 2.3\n"
 
-#: ..//index.php:41 ..//index.php:49 ..//index.php:74 ..//index.php:110
+#: ..//index.php:63 ..//index.php:71 ..//index.php:117 ..//index.php:153
 msgid "Multi-platform application development"
 msgstr "Desarrollo de aplicaciones multiplataforma"
 
-#: ..//index.php:42 ..//index.php:50 ..//index.php:76
+#: ..//index.php:64 ..//index.php:72 ..//index.php:119
 msgid "We use the latest technologies to make this happen as by magic"
 msgstr ""
 "Usamos las últimas tecnologías para hacer que las cosas pasen como por arte "
 "de magia"
 
-#: ..//index.php:101
+#: ..//index.php:97 ..//index.php:103
+msgid "Spanish"
+msgstr "Español"
+
+#: ..//index.php:144
 msgid "Why Coders Services ?"
 msgstr "¿Por qué Coders Services ?"
 
-#: ..//index.php:102
+#: ..//index.php:145
 msgid ""
 "We are able to create complete environments, joining mobile and web "
 "technologies and giving a complete experience to the users"
@@ -39,23 +43,23 @@ msgstr ""
 "Somos capaces de crear entornos completos, juntando tecnología móvil y web, "
 "dando una experiencia completa al usuario"
 
-#: ..//index.php:120
+#: ..//index.php:163
 msgid "Responsive Design to work on all systems"
 msgstr "Diseño Responsive que funciona en todos los sistemas"
 
-#: ..//index.php:131
+#: ..//index.php:174
 msgid "Native & Hybrid ANDROID & iOS apps "
 msgstr "Aplicaciones Nativas & Híbridas para ANDROID & iOS "
 
-#: ..//index.php:143
+#: ..//index.php:186 ..//test.php:25
 msgid "CUSTOM PROGRAMMING"
 msgstr "DESARROLLO PERSONALIZADO"
 
-#: ..//index.php:149
+#: ..//index.php:192
 msgid "BACK-END"
 msgstr ""
 
-#: ..//index.php:151
+#: ..//index.php:194
 msgid ""
 "The back-end of a website is comprised of complicated code that’s never seen "
 "or interacted with, but drives the whole show</p> <p>We are able to create "
@@ -67,11 +71,11 @@ msgstr ""
 "p><p>Somos capaces de crear entornos completos, juntando tecnología móvil y "
 "web, dando una experiencia completa al usuario"
 
-#: ..//index.php:160
+#: ..//index.php:203
 msgid "FRONT-END"
 msgstr ""
 
-#: ..//index.php:162
+#: ..//index.php:205
 msgid ""
 "Front-end web development refers to any functional elements that users see "
 "and interact with, such as image carousels or slide-out menus. Our front end "
@@ -84,19 +88,19 @@ msgstr ""
 "código desarrolladas desde cero, hechas a medida que no solo son fáciles de "
 "mantener y crecer; son también código de confianza y estable"
 
-#: ..//index.php:172
+#: ..//index.php:215
 msgid "WEB TECHNOLOGY"
 msgstr "TECNOLOGÍA WEB"
 
-#: ..//index.php:301
+#: ..//index.php:344
 msgid "MOBILE TECHNOLOGY"
 msgstr "TECNOLOGÍA MÓVIL"
 
-#: ..//index.php:364
+#: ..//index.php:407
 msgid "Ready to start a project ?"
 msgstr "¿Listo para comenzar un proyecto?"
 
-#: ..//index.php:365
+#: ..//index.php:408
 msgid ""
 "Whether it is enhancing an existing application or architecting an "
 "enterprise application, our developers are up for your challenge"
