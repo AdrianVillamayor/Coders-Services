@@ -22,30 +22,16 @@ if (in_array("en", $explode_url)) {
 if (in_array("es", $explode_url)) {
     $lang = 'es';
 }
-// if (in_array("ca", $explode_url)) {
-//     $lang = 'ca';
-// }
 
+setlocale(LC_ALL, $lang);
+// If no translation, try to comment out those two lines
+// putenv("LANG={$lang}");
+// putenv("LANGUAGE={$lang}");
 
-define('LOCALE_DIR',  '/var/www/html/locale/');
-define('DEFAULT_LOCALE', 'en_US');
-define('LOCALE_DOMAIN', 'coders.services');
-
-if ($lang == 'es') $locale = 'es_ES';
-// if ($lang == 'ca') $locale = 'ca_ES';
-if ($lang == 'en') $locale = 'en_US';
-
-$locale = (isset($locale))? $locale : DEFAULT_LOCALE;
-
-$_SESSION['locale'] = $locale;
-$_SESSION['lang']   = $lang;
-
-echo $lang;
-echo $locale;
-
-
-setlocale(LC_ALL, $locale);
-
-bindtextdomain(LOCALE_DOMAIN, LOCALE_DIR);
-
-textdomain(LOCALE_DOMAIN);
+// use domain if you got multiple project on the same server. This is not necessarily your server domain name.
+// It can be your project name
+$domain = 'coders.services';
+$locale_directory = '/var/www/html/locale/';
+// Where is your locale directory, relative and absolute path work
+bindtextdomain($domain, $locale_directory);
+textdomain($domain);
