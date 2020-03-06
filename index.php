@@ -1,15 +1,5 @@
 <?php 
-
-ini_set('display_errors', 1);
-ini_set('display_startup_errors', 1);
-error_reporting(E_ALL);
-
-$lang = "es_ES.utf8";
-setlocale(LC_ALL, $lang);
-$domain = 'metalast';
-$locale_directory = '/var/www/html/locale/';
-bindtextdomain($domain, $locale_directory);
-textdomain($domain);
+  include_once("Core/multilang.php");
 ?>
 <!DOCTYPE html>
 
@@ -75,16 +65,21 @@ textdomain($domain);
         <div id="dropdown">
 
           <?php
-            if($lang == "es"){
-              echo  '
-                <button data-id="es">'._("Spanish").'</button>
-                <button data-id="en">'._("English").'</button>
+            switch ($lang) {
+              case 'es':
+                echo  '
+                <button class="lang" data-id="es">'._("Spanish").'</button>
+                <button class="lang" data-id="en">'._("English").'</button>
               ';
-            }else{
-              echo  '
-                <button data-id="en">English</button>
-                <button data-id="es">'._("Spanish").'</button>
+                break;
+              
+              case 'en':
+                echo  '
+                <button class="lang" data-id="en">English</button>
+                <button class="lang" data-id="es">'._("Spanish").'</button>
               ';
+                break;
+
             }
           ?>
  

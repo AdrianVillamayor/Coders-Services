@@ -46,3 +46,4 @@ document.addEventListener('swiped-down', function (e) {
         window.ws.goPrev();
     }
 });
+
