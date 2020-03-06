@@ -47,11 +47,20 @@ document.addEventListener('swiped-down', function (e) {
     }
 });
 
+
+$( "#dropdown")
+  .mouseover(function() {
+    $( this ).addClass("open");
+  })
+  .mouseout(function() {
+    $( this ).removeClass("open");
+  });
+
 $(".lang").on("click", function(){
     let langu = $(this).attr("data-lang");
 
-    console.log(langu);
-    
-    $(location).attr('href', '/' + langu)
+    if(( "#dropdown").hasClass("open")){
+        $(location).attr('href', '/' + langu)
+    }
 
 });
