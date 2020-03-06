@@ -4,7 +4,12 @@ ini_set('display_errors', 1);
 ini_set('display_startup_errors', 1);
 error_reporting(E_ALL);
 
-include_once("Core/multilang.php");
+$lang = "es_ES.utf8";
+setlocale(LC_ALL, $lang);
+$domain = 'metalast';
+$locale_directory = '/var/www/html/locale/';
+bindtextdomain($domain, $locale_directory);
+textdomain($domain);
 ?>
 <!DOCTYPE html>
 
