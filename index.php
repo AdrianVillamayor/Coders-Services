@@ -119,7 +119,7 @@
           <p class="text-intro my-4"><?=_("We are able to create complete environments, joining mobile and web technologies and giving a complete experience to the users")?></p>
 
           <ul class="flexblock gallery container">
-            <li>
+            <li data-entrance="from-bottom">
               <a href="#page=4" title="Web">
                 <figure>
                   <img alt="Responsive Design" class="img-fluid lozad" src="img/multi-platf.svg">
@@ -129,7 +129,7 @@
                 </figure>
               </a>
             </li>
-            <li>
+            <li data-entrance="from-bottom">
               <a href="#page=3" title="Responsive Design">
                 <figure>
                   <img alt="Responsive Design" class="img-fluid lozad" src="img/responsive-design.svg">
@@ -139,7 +139,7 @@
                 </figure>
               </a>
             </li>
-            <li class="alone_2">
+            <li class="alone_2" data-entrance="from-bottom">
               <a href="#page=5" title="Mobile">
                 <figure>
                   <img alt="Native & Hybrid ANDROID & iOS apps" style="padding: 65px;" class="img-fluid lozad"
@@ -400,6 +400,7 @@
 
 <script src="js/plugins/webslides.min.js?<?=time()?>"></script>
 <script src="js/plugins/swiped-events.js?<?=time()?>"></script>
+<script src="js/plugins/scroll_animation.js?<?=time()?>"></script>
 <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/lozad/dist/lozad.min.js"></script>
 
 <script>
