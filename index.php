@@ -9,7 +9,7 @@ if (in_array("es", $explode_url)) {
     $lang = 'es';
 }
 
-echo $lang;
+var_dump($lang);
 
 if (isset($lang) && $lang == 'en') {
   $web_lang = "en_EN.utf8";
