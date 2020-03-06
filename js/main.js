@@ -46,3 +46,10 @@ document.addEventListener('swiped-down', function (e) {
         window.ws.goPrev();
     }
 });
+
+$(".lang").on("click", function(){
+    let langu = $(this).attr("data-lang");
+
+    $(location).attr('href', '/' + langu)
+
+});
