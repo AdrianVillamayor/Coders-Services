@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-03-06 10:03+0100\n"
-"PO-Revision-Date: 2020-03-06 10:03+0100\n"
+"POT-Creation-Date: 2020-03-06 10:04+0100\n"
+"PO-Revision-Date: 2020-03-06 10:05+0100\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "Language: es_ES\n"
@@ -31,6 +31,10 @@ msgstr ""
 msgid "Spanish"
 msgstr "Español"
 
+#: ..//index.php:98 ..//index.php:102
+msgid "English"
+msgstr "Inglés"
+
 #: ..//index.php:144
 msgid "Why Coders Services ?"
 msgstr "¿Por qué Coders Services ?"
@@ -45,7 +49,7 @@ msgstr ""
 
 #: ..//index.php:163
 msgid "Responsive Design to work on all systems"
-msgstr "Diseño Responsive que funciona en todos los sistemas"
+msgstr "Diseño Responsive funcional en todos los sistemas"
 
 #: ..//index.php:174
 msgid "Native & Hybrid ANDROID & iOS apps "
