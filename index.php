@@ -68,15 +68,15 @@
             switch ($lang) {
               case 'es':
                 echo  '
-                <button class="lang" data-id="es">'._("Spanish").'</button>
-                <button class="lang" data-id="en">'._("English").'</button>
+                <button class="lang" data-lang="es">'._("Spanish").'</button>
+                <button class="lang" data-lang="en">'._("English").'</button>
               ';
                 break;
               
               case 'en':
                 echo  '
-                <button class="lang" data-id="en">English</button>
-                <button class="lang" data-id="es">'._("Spanish").'</button>
+                <button class="lang" data-lang="en">English</button>
+                <button class="lang" data-lang="es">'._("Spanish").'</button>
               ';
                 break;
 
