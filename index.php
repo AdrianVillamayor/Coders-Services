@@ -180,7 +180,7 @@ textdomain($domain);
         </div>
       </section>
 
-      <section class="container">
+      <section class="container pb-4">
         <div class="wrap">
 
           <h2 class="mt-3 mb-5"><?=_("CUSTOM PROGRAMMING")?></h2>
@@ -191,7 +191,7 @@ textdomain($domain);
               <h4>
                 <strong><?=_("BACK-END")?></strong>
               </h4>
-              <p><?=_("The back-end of a website is comprised of complicated code that’s never seen or interacted with, but drives the whole show</p> <p>We are able to create complete environments, joining mobile and web technologies and giving a complete experience to the users")?></p>
+              <p><?=_("The back-end of a website is comprised of complicated code that’s never seen or interacted with, but drives the whole show.</p> <p>We are able to create complete environments, joining mobile and web technologies and giving a complete experience to the users")?>.</p>
             </div>
 
             <div class="column">
@@ -202,7 +202,7 @@ textdomain($domain);
               <h4>
                 <strong><?=_("FRONT-END")?></strong>
               </h4>
-              <p><?=_("Front-end web development refers to any functional elements that users see and interact with, such as image carousels or slide-out menus. Our front end functional pieces are custom-fit, built-from-scratch solutions that aren’t just exceptionally easy to maintain and expand on; they’re also reliable and stable")?></p>
+              <p><?=_("Front-end web development refers to any functional elements that users see and interact with, such as image carousels or slide-out menus. Our front end functional pieces are custom-fit, built-from-scratch solutions that aren’t just exceptionally easy to maintain and expand on; they’re also reliable and stable")?>.</p>
             </div>
 
           </div>
