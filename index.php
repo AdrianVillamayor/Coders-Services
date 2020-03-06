@@ -1,30 +1,4 @@
 <?php
-
-
-$explode_url = explode('/', $url);
-
-if (in_array("en", $explode_url)) {
-    $lang = 'en';
-}
-if (in_array("es", $explode_url)) {
-    $lang = 'es';
-}
-
-$url = $_SERVER["REQUEST_URI"];
-
-$spanishLanguage = array('eu','ca','es','an','gl');
-
-$lang = 'en';
-
-if(!empty($_SERVER['HTTP_ACCEPT_LANGUAGE'])){
-    $lang = substr($_SERVER['HTTP_ACCEPT_LANGUAGE'], 0, 2);
-    if (in_array($lang, $spanishLanguage)) {
-        $lang = "es";
-    }else{
-        $lang = "en";
-    }
-}
-
 $explode_url = explode('/', $url);
 
 if (in_array("en", $explode_url)) {
@@ -115,18 +89,18 @@ textdomain($domain);
           <?php
             if($lang == "es"){
               echo  '
-                <button data-id="es">'._("Spanish").'</button>
-                <button data-id="en">English</button>
+                <button class="lang" data-lang="es">'._("Spanish").'</button>
+                <button class="lang" data-lang="en">English</button>
               ';
             }else{
               echo  '
-                <button data-id="en">English</button>
-                <button data-id="es">'._("Spanish").'</button>
+                <button class="lang" data-lang="en">English</button>
+                <button class="lang" data-lang="es">'._("Spanish").'</button>
               ';
             }
           ?>
 
-          <!-- <button data-id="ca">Catalan</button> -->
+          <!-- <button class="lang" data-lang="ca">Catalan</button> -->
         </div>
       </div>
     </div>
