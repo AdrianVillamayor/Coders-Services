@@ -381,8 +381,8 @@
           <h2 class="my-3"><strong><?=_("Ready to start a project ?")?></strong> </h2>
           <p class="text-intro my-5"><?=_("Whether it is enhancing an existing application or architecting an enterprise application, our developers are up for your challenge")?></p>
           <p>
-            <a href="mailto:hola@coders.services zoomIn" target="_blank" rel="noopener" title="hola@coders.services ">
-            <img class="img-fluid grow" style="width: 150px" src="img/letstalk_w.png">
+            <a href="mailto:hola@coders.services" target="_blank" rel="noopener" title="hola@coders.services ">
+            <img class="img-fluid grow zoomIn" style="width: 150px" src="img/letstalk_w.png">
             </a>
           </p>
         </div>
