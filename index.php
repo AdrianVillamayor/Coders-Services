@@ -190,7 +190,7 @@
 
           <ul class="flexblock features">
 
-            <li>
+            <li class="fadeInUp">
               <div class="zoomIn">
                 <h2>
                   <span class="img-logo">
@@ -204,7 +204,7 @@
               </div>
             </li>
 
-            <li>
+            <li class="fadeInUp">
               <div class="zoomIn">
                 <h2>
                   <span class="img-logo">
@@ -217,7 +217,7 @@
               </div>
             </li>
 
-            <li>
+            <li class="fadeInUp">
               <div class="zoomIn">
                 <h2>
                   <span class="img-logo">
@@ -230,7 +230,7 @@
               </div>
             </li>
 
-            <li>
+            <li class="fadeInUp">
               <div class="zoomIn">
                 <h2>
                   <span class="img-logo">
@@ -244,7 +244,7 @@
               </div>
             </li>
 
-            <li>
+            <li class="fadeInUp">
               <div class="zoomIn">
                 <h2>
                   <span class="img-logo">
@@ -258,7 +258,7 @@
               </div>
             </li>
 
-            <li>
+            <li class="fadeInUp">
               <div class="zoomIn">
                 <h2>
                   <span class="img-logo">
@@ -272,7 +272,7 @@
               </div>
             </li>
 
-            <li>
+            <li class="fadeInUp">
               <div class="zoomIn">
                 <h2>
                   <span class="img-logo">
@@ -285,7 +285,7 @@
               </div>
             </li>
 
-            <li>
+            <li class="fadeInUp">
               <div class="zoomIn">
                 <h2>
                   <span class="img-logo">
@@ -297,7 +297,7 @@
                 </h2>
               </div>
             </li>
-            <li>
+            <li class="fadeInUp">
               <div class="zoomIn">
                 <h2>
                   <span class="img-logo">
@@ -319,7 +319,7 @@
 
           <ul class="flexblock features">
 
-            <li>
+            <li class="fadeInUp">
               <div class="zoomIn">
                 <h2>
                   <span class="img-logo">
@@ -333,7 +333,7 @@
               </div>
             </li>
 
-            <li>
+            <li class="fadeInUp">
               <div class="zoomIn">
                 <h2>
                   <span class="img-logo zoomIn">
@@ -346,7 +346,7 @@
               </div>
             </li>
 
-            <li>
+            <li class="fadeInUp">
               <div class="zoomIn">
                 <h2>
                   <span class="img-logo zoomIn">
@@ -359,7 +359,7 @@
               </div>
             </li>
 
-            <li class="alone">
+            <li class="alone fadeInUp">
               <div class="zoomIn">
                 <h2>
                   <span class="img-logo zoomIn">
