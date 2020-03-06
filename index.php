@@ -4,11 +4,11 @@ ini_set('display_errors', 1);
 ini_set('display_startup_errors', 1);
 error_reporting(E_ALL);
 
-if (isset($lang) && $lang == 'es') {
-  $web_lang = "es_ES.utf8";
-} else {
+if (isset($lang) && $lang == 'en') {
   $web_lang = "en_EN.utf8";
-  $lang = "en";
+} else {
+  $web_lang = "es_ES.utf8";
+  $lang = "es";
 }
 setlocale(LC_ALL, $web_lang);
 $domain = 'metalast';
