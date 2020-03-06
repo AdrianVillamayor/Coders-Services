@@ -185,13 +185,13 @@
       </section>
 
       <section class="container">
-        <div class="wrap mt fadeInUp">
+        <div class="wrap mt">
           <h2 class="my-3"><?=_("WEB TECHNOLOGY")?></h2>
 
           <ul class="flexblock features">
 
             <li>
-              <div>
+              <div class="fadeInUp">
                 <h2>
                   <span class="img-logo">
                     <div class="text-right flex flex-align-center zoomIn">
@@ -205,7 +205,7 @@
             </li>
 
             <li>
-              <div>
+              <div class="fadeInUp">
                 <h2>
                   <span class="img-logo">
                     <div class="text-right flex flex-align-center zoomIn">
@@ -218,7 +218,7 @@
             </li>
 
             <li>
-              <div>
+              <div class="fadeInUp">
                 <h2>
                   <span class="img-logo">
                     <div class="text-right flex flex-align-center zoomIn">
@@ -231,7 +231,7 @@
             </li>
 
             <li>
-              <div>
+              <div class="fadeInUp">
                 <h2>
                   <span class="img-logo">
                     <div class="text-right flex flex-align-center zoomIn">
@@ -245,7 +245,7 @@
             </li>
 
             <li>
-              <div>
+              <div class="fadeInUp">
                 <h2>
                   <span class="img-logo">
                     <div class="text-right flex flex-align-center zoomIn">
@@ -259,7 +259,7 @@
             </li>
 
             <li>
-              <div>
+              <div class="fadeInUp">
                 <h2>
                   <span class="img-logo">
                     <div class="text-right flex flex-align-center zoomIn">
@@ -273,7 +273,7 @@
             </li>
 
             <li>
-              <div>
+              <div class="fadeInUp">
                 <h2>
                   <span class="img-logo">
                     <div class="text-right flex flex-align-center zoomIn">
@@ -286,7 +286,7 @@
             </li>
 
             <li>
-              <div>
+              <div class="fadeInUp">
                 <h2>
                   <span class="img-logo">
                     <div class="text-right flex flex-align-center zoomIn">
@@ -298,7 +298,7 @@
               </div>
             </li>
             <li>
-              <div>
+              <div class="fadeInUp">
                 <h2>
                   <span class="img-logo">
                     <div class="text-right flex flex-align-center zoomIn">
@@ -320,7 +320,7 @@
           <ul class="flexblock features">
 
             <li>
-              <div>
+              <div class="fadeInUp">
                 <h2>
                   <span class="img-logo">
                     <div class="text-right flex flex-align-center zoomIn">
@@ -334,9 +334,9 @@
             </li>
 
             <li>
-              <div>
+              <div class="fadeInUp">
                 <h2>
-                  <span class="img-logo">
+                  <span class="img-logo zoomIn">
                     <div class="text-right">
                       <img alt="swift" class="img-fluid lozad" src="img/swift_logo.png">
                     </div>
@@ -347,10 +347,10 @@
             </li>
 
             <li>
-              <div>
+              <div class="fadeInUp">
                 <h2>
-                  <span class="img-logo">
-                    <div class="text-right flex flex-align-center zoomIn">
+                  <span class="img-logo zoomIn">
+                    <div class="text-right flex flex-align-center">
                       <img alt="Flutter" class="img-fluid lozad" src="img/flutter_logo.png">
                     </div>
                   </span>
@@ -360,10 +360,10 @@
             </li>
 
             <li class="alone">
-              <div>
+              <div class="fadeInUp">
                 <h2>
-                  <span class="img-logo">
-                    <div class="text-right flex flex-align-center zoomIn">
+                  <span class="img-logo zoomIn">
+                    <div class="text-right flex flex-align-center">
                       <img alt="Ionic" class="img-fluid lozad" src="img/ionic_logo.png">
                     </div>
                   </span>
