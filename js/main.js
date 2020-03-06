@@ -50,6 +50,8 @@ document.addEventListener('swiped-down', function (e) {
 $(".lang").on("click", function(){
     let langu = $(this).attr("data-lang");
 
+    console.log(langu);
+    
     $(location).attr('href', '/' + langu)
 
 });
