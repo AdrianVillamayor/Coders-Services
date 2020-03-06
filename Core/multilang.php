@@ -23,15 +23,12 @@ if (in_array("es", $explode_url)) {
     $lang = 'es';
 }
 
-setlocale(LC_ALL, $lang);
-// If no translation, try to comment out those two lines
-// putenv("LANG={$lang}");
-// putenv("LANGUAGE={$lang}");
+echo $lang;
 
-// use domain if you got multiple project on the same server. This is not necessarily your server domain name.
-// It can be your project name
+setlocale(LC_ALL, $lang);
+
 $domain = 'coders.services';
 $locale_directory = '/var/www/html/locale/';
-// Where is your locale directory, relative and absolute path work
+
 bindtextdomain($domain, $locale_directory);
 textdomain($domain);
