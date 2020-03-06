@@ -138,6 +138,14 @@ a {
 
 .wrap {
   &.mt{
-    margin-top: 50px;
+    @media screen and (max-width: $medium - 1px) {
+      margin-top: 50px;
+  
+  
+    }
+  
+    @media screen and (min-width: $medium) {
+      margin-top: 0px;
+    }
   }
 }
