@@ -28,6 +28,8 @@ document.addEventListener('swiped-up', function (e) {
     let position = Math.round(slide.scrollTop());
 
     if ((max - offset == position)) {
+        console.warn("next");
+
         window.ws.goNext();
     }
 });
@@ -37,6 +39,8 @@ document.addEventListener('swiped-down', function (e) {
     let position = Math.round(slide.scrollTop());
 
     if (position == 0) {
+        console.warn("back");
+
         window.ws.goPrev();
     }
 });
