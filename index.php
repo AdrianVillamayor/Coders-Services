@@ -1,5 +1,7 @@
 <?php
 
+$url = $_SERVER["REQUEST_URI"];
+
 $explode_url = explode('/', $url);
 
 if (in_array("en", $explode_url)) {
