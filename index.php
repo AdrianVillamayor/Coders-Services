@@ -12,13 +12,13 @@ if (in_array("es", $explode_url)) {
 }
 
 if (isset($lang) && $lang == 'en') {
-  $web_lang = "en_EN.utf8";
+  $web_lang = "en_EN";
 } else {
-  $web_lang = "es_ES.utf8";
+  $web_lang = "es_ES";
   $lang = "es";
 }
 
-setlocale(LC_ALL, $web_lang);
+setlocale(LC_ALL, $web_lang.".utf8");
 
 $domain = 'coders';
 $locale_directory = '/var/www/html/locale/';
