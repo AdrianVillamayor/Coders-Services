@@ -1,11 +1,15 @@
-<?php 
+<?php
 
 ini_set('display_errors', 1);
 ini_set('display_startup_errors', 1);
 error_reporting(E_ALL);
 
-$lang = "es_ES.utf8";
-setlocale(LC_ALL, $lang);
+if ($lang == 'es') {
+  $web_lang = "es_ES.utf8";
+} else {
+  $web_lang = "en_EN.utf8";
+}
+setlocale(LC_ALL, $web_lang);
 $domain = 'metalast';
 $locale_directory = '/var/www/html/locale/';
 bindtextdomain($domain, $locale_directory);
@@ -13,7 +17,7 @@ textdomain($domain);
 ?>
 <!DOCTYPE html>
 
-<html lang="en-US">
+<html lang="<?=$web_lang;?>">
 
 <head>
   <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
@@ -71,14 +75,14 @@ textdomain($domain);
         <img class="img-fluid lozad" style="opacity: .9;width:50px;" src="img/logo.png">
       </div>
 
-      <div class="flex-justify-flex-end ">          
+      <div class="flex-justify-flex-end ">
         <div id="dropdown">
 
           <?php
             if($lang == "es"){
               echo  '
                 <button data-id="es">'._("Spanish").'</button>
-                <button data-id="en">'._("English").'</button>
+                <button data-id="en">English</button>
               ';
             }else{
               echo  '
@@ -87,7 +91,7 @@ textdomain($domain);
               ';
             }
           ?>
- 
+
           <!-- <button data-id="ca">Catalan</button> -->
         </div>
       </div>
@@ -103,7 +107,7 @@ textdomain($domain);
 
         </div>
         <div class="wrap aligncenter">
-      
+
           <p style="position: relative; top: 50px;"> <img class="img-fluid" style="width: 150px" src="img/letstalk_w.png"></p>
 
         </div>
@@ -169,7 +173,7 @@ textdomain($domain);
           <h2 class="mt-3 mb-5"><?=_("CUSTOM PROGRAMMING")?></h2>
 
           <div class="grid vertical-align">
-          
+
             <div class="column">
               <h4>
                 <strong><?=_("BACK-END")?></strong>
