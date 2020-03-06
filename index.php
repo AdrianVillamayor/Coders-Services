@@ -87,13 +87,13 @@
     <article id="webslides" class="vertical">
 
       <section class="container">
-        <div class="wrap aligncenter fadeInUp">
+        <div class="wrap aligncenter zoomIn">
           <h1><strong><?=_("Multi-platform application development")?> </strong></h1>
 
           <p class="text-intro"><?=_("We use the latest technologies to make this happen as by magic")?>.</p>
 
         </div>
-        <div class="wrap aligncenter fadeInUp">
+        <div class="wrap aligncenter zoomIn">
 
           <p style="position: relative; top: 50px;"> <img class="img-fluid" style="width: 150px" src="img/letstalk_w.png"></p>
 
@@ -114,13 +114,13 @@
       </section>
 
       <section class="container">
-        <div class="wrap mt fadeInUp">
+        <div class="wrap mt">
           <h2 class="my-3"><strong> <?=_("Why Coders Services ?")?> </strong></h2>
           <p class="text-intro my-4"><?=_("We are able to create complete environments, joining mobile and web technologies and giving a complete experience to the users")?></p>
 
           <ul class="flexblock gallery container">
             <li>
-              <a href="#page=4" title="Web">
+              <a class="fadeInUp" href="#page=4" title="Web">
                 <figure>
                   <img alt="Responsive Design" class="img-fluid lozad zoomIn" src="img/multi-platf.svg">
                   <figcaption>
@@ -130,7 +130,7 @@
               </a>
             </li>
             <li>
-              <a href="#page=3" title="Responsive Design">
+              <a class="fadeInUp" href="#page=3" title="Responsive Design">
                 <figure>
                   <img alt="Responsive Design" class="img-fluid lozad zoomIn" src="img/responsive-design.svg">
                   <figcaption>
@@ -140,7 +140,7 @@
               </a>
             </li>
             <li class="alone_2">
-              <a href="#page=5" title="Mobile">
+              <a class="fadeInUp" href="#page=5" title="Mobile">
                 <figure>
                   <img alt="Native & Hybrid ANDROID & iOS apps" style="padding: 65px;" class="img-fluid lozad"
                     src="img/app.svg">
@@ -155,24 +155,24 @@
       </section>
 
       <section class="container mb-5">
-        <div class="wrap mt fadeInUp">
+        <div class="wrap mt zoomIn">
 
           <h2 class="mt-3 mb-5"><?=_("CUSTOM PROGRAMMING")?></h2>
 
           <div class="grid vertical-align">
 
-            <div class="column">
+            <div class="column fadeInUp">
               <h4>
                 <strong><?=_("BACK-END")?></strong>
               </h4>
               <p><?=_("The back-end of a website is comprised of complicated code that’s never seen or interacted with, but drives the whole show.</p> <p>We are able to create complete environments, joining mobile and web technologies and giving a complete experience to the users")?>.</p>
             </div>
 
-            <div class="column">
-              <figure><img class="aligncenter zoomIn" src="img/programming.svg" alt="Coders Services Files"></figure>
+            <div class="column zoomIn">
+              <figure><img class="aligncenter" src="img/programming.svg" alt="Coders Services Files"></figure>
             </div>
 
-            <div class="column">
+            <div class="column fadeInUp">
               <h4>
                 <strong><?=_("FRONT-END")?></strong>
               </h4>
@@ -191,7 +191,7 @@
           <ul class="flexblock features">
 
             <li>
-              <div class="fadeInUp">
+              <div class="zoomIn">
                 <h2>
                   <span class="img-logo">
                     <div class="text-right flex flex-align-center zoomIn">
@@ -205,7 +205,7 @@
             </li>
 
             <li>
-              <div class="fadeInUp">
+              <div class="zoomIn">
                 <h2>
                   <span class="img-logo">
                     <div class="text-right flex flex-align-center zoomIn">
@@ -218,7 +218,7 @@
             </li>
 
             <li>
-              <div class="fadeInUp">
+              <div class="zoomIn">
                 <h2>
                   <span class="img-logo">
                     <div class="text-right flex flex-align-center zoomIn">
@@ -231,7 +231,7 @@
             </li>
 
             <li>
-              <div class="fadeInUp">
+              <div class="zoomIn">
                 <h2>
                   <span class="img-logo">
                     <div class="text-right flex flex-align-center zoomIn">
@@ -245,7 +245,7 @@
             </li>
 
             <li>
-              <div class="fadeInUp">
+              <div class="zoomIn">
                 <h2>
                   <span class="img-logo">
                     <div class="text-right flex flex-align-center zoomIn">
@@ -259,7 +259,7 @@
             </li>
 
             <li>
-              <div class="fadeInUp">
+              <div class="zoomIn">
                 <h2>
                   <span class="img-logo">
                     <div class="text-right flex flex-align-center zoomIn">
@@ -273,7 +273,7 @@
             </li>
 
             <li>
-              <div class="fadeInUp">
+              <div class="zoomIn">
                 <h2>
                   <span class="img-logo">
                     <div class="text-right flex flex-align-center zoomIn">
@@ -286,7 +286,7 @@
             </li>
 
             <li>
-              <div class="fadeInUp">
+              <div class="zoomIn">
                 <h2>
                   <span class="img-logo">
                     <div class="text-right flex flex-align-center zoomIn">
@@ -298,7 +298,7 @@
               </div>
             </li>
             <li>
-              <div class="fadeInUp">
+              <div class="zoomIn">
                 <h2>
                   <span class="img-logo">
                     <div class="text-right flex flex-align-center zoomIn">
@@ -320,7 +320,7 @@
           <ul class="flexblock features">
 
             <li>
-              <div class="fadeInUp">
+              <div class="zoomIn">
                 <h2>
                   <span class="img-logo">
                     <div class="text-right flex flex-align-center zoomIn">
@@ -334,7 +334,7 @@
             </li>
 
             <li>
-              <div class="fadeInUp">
+              <div class="zoomIn">
                 <h2>
                   <span class="img-logo zoomIn">
                     <div class="text-right">
@@ -347,7 +347,7 @@
             </li>
 
             <li>
-              <div class="fadeInUp">
+              <div class="zoomIn">
                 <h2>
                   <span class="img-logo zoomIn">
                     <div class="text-right flex flex-align-center">
@@ -360,7 +360,7 @@
             </li>
 
             <li class="alone">
-              <div class="fadeInUp">
+              <div class="zoomIn">
                 <h2>
                   <span class="img-logo zoomIn">
                     <div class="text-right flex flex-align-center">
