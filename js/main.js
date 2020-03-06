@@ -1,12 +1,12 @@
-window.ws = new WebSlides({
-    changeOnClick: false,
-    loop: false,
-    minWheelDelta: 40,
-    navigateOnScroll: true,
-    scrollWait: 450,
-    slideOffset: 50,
-    showIndex: true
-});
+// window.ws = new WebSlides({
+//     changeOnClick: false,
+//     loop: false,
+//     minWheelDelta: 40,
+//     navigateOnScroll: true,
+//     scrollWait: 450,
+//     slideOffset: 50,
+//     showIndex: true
+// });
 
 
 const observer = lozad(); // lazy loads elements with default selector as '.lozad'
