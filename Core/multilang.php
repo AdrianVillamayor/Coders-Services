@@ -1,6 +1,4 @@
 <?php
-require_once('Libraries/gettext.inc');
-
 $url = $_SERVER["REQUEST_URI"];
 
 $spanishLanguage = array('eu','ca','es','an','gl');
@@ -42,16 +40,8 @@ $_SESSION['lang']   = $lang;
 $encoding = 'UTF-8';
 $locale = (isset($locale))? $locale : DEFAULT_LOCALE;
 
-putenv("LC_ALL=$locale");
+setlocale(LC_ALL, $locale);
 
-// gettext setup
-T_setlocale(LC_MESSAGES, $locale);
-
-// Set the text domain as 'messages'
 bindtextdomain(LOCALE_DOMAIN, LOCALE_DIR);
 
-// bind_textdomain_codeset is supported only in PHP 4.2.0+
-if (function_exists('bind_textdomain_codeset')) {
-    bind_textdomain_codeset(LOCALE_DOMAIN, $encoding);
-}
 textdomain(LOCALE_DOMAIN);
