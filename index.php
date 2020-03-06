@@ -114,7 +114,7 @@
       </section>
 
       <section class="container">
-        <div class="wrap">
+        <div class="wrap mt">
           <h2 class="my-3"><strong> <?=_("Why Coders Services ?")?> </strong></h2>
           <p class="text-intro my-4"><?=_("We are able to create complete environments, joining mobile and web technologies and giving a complete experience to the users")?></p>
 
@@ -155,7 +155,7 @@
       </section>
 
       <section class="container mb-5">
-        <div class="wrap">
+        <div class="wrap mt">
 
           <h2 class="mt-3 mb-5"><?=_("CUSTOM PROGRAMMING")?></h2>
 
@@ -185,7 +185,7 @@
       </section>
 
       <section class="container">
-        <div class="wrap">
+        <div class="wrap mt">
           <h2 class="my-3"><?=_("WEB TECHNOLOGY")?></h2>
 
           <ul class="flexblock features">
@@ -314,7 +314,7 @@
       </section>
 
       <section class="container">
-        <div class="wrap">
+        <div class="wrap mt">
           <h2 class="my-3"><?=_("MOBILE TECHNOLOGY")?></h2>
 
           <ul class="flexblock features">

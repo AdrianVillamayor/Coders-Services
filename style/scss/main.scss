@@ -134,3 +134,10 @@ a {
     @include transform (scale(1.1));
   }
 }
+
+
+.wrap {
+  &.mt{
+    margin-top: 50px;
+  }
+}
