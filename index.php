@@ -87,13 +87,13 @@
     <article id="webslides" class="vertical">
 
       <section class="container">
-        <div class="wrap aligncenter">
+        <div class="wrap aligncenter fadeInUp">
           <h1><strong><?=_("Multi-platform application development")?> </strong></h1>
 
           <p class="text-intro"><?=_("We use the latest technologies to make this happen as by magic")?>.</p>
 
         </div>
-        <div class="wrap aligncenter">
+        <div class="wrap aligncenter fadeInUp">
 
           <p style="position: relative; top: 50px;"> <img class="img-fluid" style="width: 150px" src="img/letstalk_w.png"></p>
 
@@ -114,7 +114,7 @@
       </section>
 
       <section class="container">
-        <div class="wrap mt">
+        <div class="wrap mt fadeInUp">
           <h2 class="my-3"><strong> <?=_("Why Coders Services ?")?> </strong></h2>
           <p class="text-intro my-4"><?=_("We are able to create complete environments, joining mobile and web technologies and giving a complete experience to the users")?></p>
 
@@ -122,7 +122,7 @@
             <li>
               <a href="#page=4" title="Web">
                 <figure>
-                  <img alt="Responsive Design" class="img-fluid lozad" src="img/multi-platf.svg">
+                  <img alt="Responsive Design" class="img-fluid lozad zoomIn" src="img/multi-platf.svg">
                   <figcaption>
                     <h2><?=_("Multi-platform application development")?> </h2>
                   </figcaption>
@@ -132,7 +132,7 @@
             <li>
               <a href="#page=3" title="Responsive Design">
                 <figure>
-                  <img alt="Responsive Design" class="img-fluid lozad" src="img/responsive-design.svg">
+                  <img alt="Responsive Design" class="img-fluid lozad zoomIn" src="img/responsive-design.svg">
                   <figcaption>
                     <h2> <?=_("Responsive Design to work on all systems")?> </h2>
                   </figcaption>
@@ -155,7 +155,7 @@
       </section>
 
       <section class="container mb-5">
-        <div class="wrap mt">
+        <div class="wrap mt fadeInUp">
 
           <h2 class="mt-3 mb-5"><?=_("CUSTOM PROGRAMMING")?></h2>
 
@@ -169,7 +169,7 @@
             </div>
 
             <div class="column">
-              <figure><img class="aligncenter" src="img/programming.svg" alt="Coders Services Files"></figure>
+              <figure><img class="aligncenter zoomIn" src="img/programming.svg" alt="Coders Services Files"></figure>
             </div>
 
             <div class="column">
@@ -185,7 +185,7 @@
       </section>
 
       <section class="container">
-        <div class="wrap mt">
+        <div class="wrap mt fadeInUp">
           <h2 class="my-3"><?=_("WEB TECHNOLOGY")?></h2>
 
           <ul class="flexblock features">
@@ -194,7 +194,7 @@
               <div>
                 <h2>
                   <span class="img-logo">
-                    <div class="text-right flex flex-align-center">
+                    <div class="text-right flex flex-align-center zoomIn">
                       <img alt="PHP" class="img-fluid lozad" src="img/php_logo.png">
                     </div>
                   </span>
@@ -208,7 +208,7 @@
               <div>
                 <h2>
                   <span class="img-logo">
-                    <div class="text-right flex flex-align-center">
+                    <div class="text-right flex flex-align-center zoomIn">
                       <img alt="golang" class="img-fluid lozad" style="width: 10rem;" src="img/go_logo.png">
                     </div>
                   </span>
@@ -221,7 +221,7 @@
               <div>
                 <h2>
                   <span class="img-logo">
-                    <div class="text-right flex flex-align-center">
+                    <div class="text-right flex flex-align-center zoomIn">
                       <img alt="PYTHON" class="img-fluid lozad" src="img/py_logo.png">
                     </div>
                   </span>
@@ -234,7 +234,7 @@
               <div>
                 <h2>
                   <span class="img-logo">
-                    <div class="text-right flex flex-align-center">
+                    <div class="text-right flex flex-align-center zoomIn">
                       <img alt="html" class="img-fluid lozad" src="img/html_logo.png">
                     </div>
                   </span>
@@ -248,7 +248,7 @@
               <div>
                 <h2>
                   <span class="img-logo">
-                    <div class="text-right flex flex-align-center">
+                    <div class="text-right flex flex-align-center zoomIn">
                       <img alt="css" class="img-fluid lozad" src="img/css_logo.png">
                     </div>
                   </span>
@@ -262,7 +262,7 @@
               <div>
                 <h2>
                   <span class="img-logo">
-                    <div class="text-right flex flex-align-center">
+                    <div class="text-right flex flex-align-center zoomIn">
                       <img alt="javascript" class="img-fluid lozad" src="img/js_logo.png">
                     </div>
                   </span>
@@ -276,7 +276,7 @@
               <div>
                 <h2>
                   <span class="img-logo">
-                    <div class="text-right flex flex-align-center">
+                    <div class="text-right flex flex-align-center zoomIn">
                       <img alt="java" class="img-fluid lozad" src="img/java_logo.png">
                     </div>
                   </span>
@@ -289,7 +289,7 @@
               <div>
                 <h2>
                   <span class="img-logo">
-                    <div class="text-right flex flex-align-center">
+                    <div class="text-right flex flex-align-center zoomIn">
                       <img alt="java" class="img-fluid lozad" src="img/mysql_logo.png">
                     </div>
                   </span>
@@ -301,7 +301,7 @@
               <div>
                 <h2>
                   <span class="img-logo">
-                    <div class="text-right flex flex-align-center">
+                    <div class="text-right flex flex-align-center zoomIn">
                       <img alt="java" class="img-fluid lozad" src="img/mongodb_logo.png">
                     </div>
                   </span>
@@ -323,7 +323,7 @@
               <div>
                 <h2>
                   <span class="img-logo">
-                    <div class="text-right flex flex-align-center">
+                    <div class="text-right flex flex-align-center zoomIn">
                       <img alt="android" class="img-fluid lozad" src="img/android_logo.png">
                     </div>
                   </span>
@@ -350,7 +350,7 @@
               <div>
                 <h2>
                   <span class="img-logo">
-                    <div class="text-right flex flex-align-center">
+                    <div class="text-right flex flex-align-center zoomIn">
                       <img alt="Flutter" class="img-fluid lozad" src="img/flutter_logo.png">
                     </div>
                   </span>
@@ -363,7 +363,7 @@
               <div>
                 <h2>
                   <span class="img-logo">
-                    <div class="text-right flex flex-align-center">
+                    <div class="text-right flex flex-align-center zoomIn">
                       <img alt="Ionic" class="img-fluid lozad" src="img/ionic_logo.png">
                     </div>
                   </span>
@@ -381,7 +381,7 @@
           <h2 class="my-3"><strong><?=_("Ready to start a project ?")?></strong> </h2>
           <p class="text-intro my-5"><?=_("Whether it is enhancing an existing application or architecting an enterprise application, our developers are up for your challenge")?></p>
           <p>
-            <a href="mailto:hola@coders.services" target="_blank" rel="noopener" title="hola@coders.services ">
+            <a href="mailto:hola@coders.services zoomIn" target="_blank" rel="noopener" title="hola@coders.services ">
             <img class="img-fluid grow" style="width: 150px" src="img/letstalk_w.png">
             </a>
           </p>
