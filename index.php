@@ -180,7 +180,7 @@ textdomain($domain);
         </div>
       </section>
 
-      <section class="container">
+      <section class="container mb-5">
         <div class="wrap">
 
           <h2 class="mt-3 mb-5"><?=_("CUSTOM PROGRAMMING")?></h2>
