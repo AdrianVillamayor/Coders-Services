@@ -23,8 +23,6 @@ if (in_array("es", $explode_url)) {
     $lang = 'es';
 }
 
-echo $lang;
-
 setlocale(LC_ALL, $lang);
 
 $domain = 'coders.services';
