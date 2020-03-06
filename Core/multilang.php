@@ -5,7 +5,6 @@ $url = $_SERVER["REQUEST_URI"];
 $explode_url = explode('/', $url);
 
 $lang = "en";
-
 if (in_array("en", $explode_url)) {
     $lang = 'en';
 }

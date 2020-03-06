@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-03-06 10:19+0100\n"
-"PO-Revision-Date: 2020-03-06 10:20+0100\n"
+"PO-Revision-Date: 2020-03-06 10:36+0100\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "Language: es_ES\n"
@@ -49,7 +49,7 @@ msgstr ""
 
 #: ..//index.php:163
 msgid "Responsive Design to work on all systems"
-msgstr "Diseño Responsive funcional en todos los sistemas"
+msgstr "Diseño Responsive funcional en todos sistemas"
 
 #: ..//index.php:174
 msgid "Native & Hybrid ANDROID & iOS apps "
