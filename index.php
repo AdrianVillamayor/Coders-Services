@@ -8,14 +8,15 @@ if (in_array("es", $explode_url)) {
     $lang = 'es';
 }
 
-
 if (isset($lang) && $lang == 'en') {
   $web_lang = "en_EN.utf8";
 } else {
   $web_lang = "es_ES.utf8";
   $lang = "es";
 }
+
 echo $web_lang;
+
 setlocale(LC_ALL, $web_lang);
 $domain = 'coders.services';
 $locale_directory = '/var/www/html/locale/';
